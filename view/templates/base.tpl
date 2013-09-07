@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> {$Titulo}</title>
+        <title> Jardines Altamar</title>
         <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1' />
 
 
