@@ -12,6 +12,7 @@ $smarty->assign("js",Js);
 $smarty->assign("img",Img);
 
 
+
 $smarty->assign("title","Jardines Altamar");
 
 $smarty->display('base.tpl');
