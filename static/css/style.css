@@ -84,7 +84,7 @@
 #navigation ul li{
     float:left;
     position:relative;
-    background: url(../images/nav-divider.png)  repeat-y right;
+    background: url(../image/nav-divider.png)  repeat-y right;
     line-height: 30px;
 }
 
@@ -167,7 +167,7 @@
 .nav-shadow {
     width: 100%;
     height: 27px;
-    background: url(../images/nav-shadow.png) no-repeat center top;
+    background: url(../image/nav-shadow.png) no-repeat center top;
     background-size: 100% 100%;
     position: absolute;
     bottom: -2px;
@@ -251,11 +251,11 @@ html[xmlns] .slides {display: block;}
 }
 
 .flex-direction-nav .flex-next {
-    background: url(../images/ctrl-buttons.png) no-repeat -80px 0;
+    background: url(../image/ctrl-buttons.png) no-repeat -80px 0;
 }
 
 .flex-direction-nav .flex-prev {
-    background: url(../images/ctrl-buttons.png) no-repeat 0 0;
+    background: url(../image/ctrl-buttons.png) no-repeat 0 0;
     left: 1%;
 }
 
@@ -389,17 +389,17 @@ html[xmlns] .slides {display: block;}
 }
 
 .image-overlay-link {
-    background-image: url(../images/overlay-icon-01.png);
+    background-image: url(../image/overlay-icon-01.png);
 }
 
 .image-overlay-zoom {
-    background-image: url(../images/overlay-icon-02.png);
+    background-image: url(../image/overlay-icon-02.png);
 }
 
 /* Headline
 ------------------*/
 .headline {
-    background: url(../images/headline-bg.png) 0 100% repeat-x;
+    background: url(../image/headline-bg.png) 0 100% repeat-x;
     display: block;
     margin: 30px 0 8px 0;
 }
@@ -597,7 +597,7 @@ html[xmlns] .slides {display: block;}
 #footer a:hover {color: #fff;}
 #footer p{font-size: 12px;}
 .footer-headline {
-    background: url(../images/headline-footer-bg.png) 0 100% repeat-x;
+    background: url(../image/headline-footer-bg.png) 0 100% repeat-x;
     display: block;
     margin: 15px 0 8px 0;
 }
@@ -646,11 +646,11 @@ html[xmlns] .slides {display: block;}
 
 #twitter b a, #twitter b a:hover {color: #707070}
 #twitter li {line-height: 18px; margin: 2px 0 12px 0;
-             background: url(../images/tweet.png) no-repeat left top;
+             background: url(../image/tweet.png) no-repeat left top;
              padding-left: 25px;
              background-position-y: 4px;
              }
-#twitter li:last-child {padding: 0; margin: 0;background: url(../images/tweet.png) no-repeat left top;
+#twitter li:last-child {padding: 0; margin: 0;background: url(../image/tweet.png) no-repeat left top;
                         padding-left: 25px;
                         background-position-y: 4px;
                         }
@@ -682,7 +682,7 @@ html[xmlns] .slides {display: block;}
     height: 35px;
     display: block;
     background-color: #111;
-    background-image: url(../images/scroll-top-top.png);
+    background-image: url(../image/scroll-top-top.png);
     background-repeat: no-repeat;
     background-position: 50%;
     -webkit-transition: all 0.1s ease-in-out;
@@ -754,13 +754,13 @@ a.post-entry {
     margin: 3px 0 9px 0;
     display: inline-block;
     padding: 0 12px 0 0;
-    background: url(../images/blog-post-entry-02.png) no-repeat right;
+    background: url(../image/blog-post-entry-02.png) no-repeat right;
     background-position: 100% 50%;
 }
 
 a.post-entry:hover {
     color: #888; 
-    background: url(../images/blog-post-entry-02.png) no-repeat right;
+    background: url(../image/blog-post-entry-02.png) no-repeat right;
     background-position: 100% 50%;
 }
 
@@ -777,7 +777,7 @@ a.post-entry:hover {
 #twitter-blog li {
     line-height: 18px;
 margin: 2px 0 12px 0;
-background: url(../images/tweet.png) no-repeat left top;
+background: url(../image/tweet.png) no-repeat left top;
 padding-left: 25px;
 background-position-y: 4px;
 }
@@ -960,33 +960,33 @@ a.sign-up:hover {
 }
 
 /* Icon List */
-.amazon {background: url(../images/icons/social/amazon.png) no-repeat;}
-.behance {background: url(../images/icons/social/behance.png) no-repeat;}
-.blogger {background: url(../images/icons/social/blogger.png) no-repeat;}
-.deviantart{background: url(../images/icons/social/deviantart.png) no-repeat;}
-.dribbble {background: url(../images/icons/social/dribbble.png) no-repeat;}
-.dropbox {background: url(../images/icons/social/dropbox.png) no-repeat;}
-.evernote {background: url(../images/icons/social/evernote.png) no-repeat;}
-.facebook {background: url(../images/icons/social/facebook.png) no-repeat;}
-.forrst {background: url(../images/icons/social/forrst.png) no-repeat;}
-.github {background: url(../images/icons/social/github.png) no-repeat;}
-.googleplus {background: url(../images/icons/social/googleplus.png) no-repeat;}
-.jolicloud {background: url(../images/icons/social/jolicloud.png) no-repeat;}
-.last-fm {background: url(../images/icons/social/last-fm.png) no-repeat;}
-.linkedin {background: url(../images/icons/social/linkedin.png) no-repeat;}
-.picasa {background: url(../images/icons/social/picasa.png) no-repeat;}
-.pintrest {background: url(../images/icons/social/pintrest.png) no-repeat;}
-.rss {background: url(../images/icons/social/rss.png) no-repeat;}
-.skype {background: url(../images/icons/social/skype.png) no-repeat;}
-.spotify {background: url(../images/icons/social/spotify.png) no-repeat;}
-.stumbleupon {background: url(../images/icons/social/stumbleupon.png) no-repeat;}
-.tumblr {background: url(../images/icons/social/tumblr.png) no-repeat;}
-.twitter {background: url(../images/icons/social/twitter.png) no-repeat;}
-.vimeo {background: url(../images/icons/social/vimeo.png) no-repeat;}
-.wordpress {background: url(../images/icons/social/wordpress.png) no-repeat;}
-.xing {background: url(../images/icons/social/xing.png) no-repeat;}
-.yahoo {background: url(../images/icons/social/yahoo.png) no-repeat;}
-.youtube {background: url(../images/icons/social/youtube.png) no-repeat;}
+.amazon {background: url(../image/icons/social/amazon.png) no-repeat;}
+.behance {background: url(../image/icons/social/behance.png) no-repeat;}
+.blogger {background: url(../image/icons/social/blogger.png) no-repeat;}
+.deviantart{background: url(../image/icons/social/deviantart.png) no-repeat;}
+.dribbble {background: url(../image/icons/social/dribbble.png) no-repeat;}
+.dropbox {background: url(../image/icons/social/dropbox.png) no-repeat;}
+.evernote {background: url(../image/icons/social/evernote.png) no-repeat;}
+.facebook {background: url(../image/icons/social/facebook.png) no-repeat;}
+.forrst {background: url(../image/icons/social/forrst.png) no-repeat;}
+.github {background: url(../image/icons/social/github.png) no-repeat;}
+.googleplus {background: url(../image/icons/social/googleplus.png) no-repeat;}
+.jolicloud {background: url(../image/icons/social/jolicloud.png) no-repeat;}
+.last-fm {background: url(../image/icons/social/last-fm.png) no-repeat;}
+.linkedin {background: url(../image/icons/social/linkedin.png) no-repeat;}
+.picasa {background: url(../image/icons/social/picasa.png) no-repeat;}
+.pintrest {background: url(../image/icons/social/pintrest.png) no-repeat;}
+.rss {background: url(../image/icons/social/rss.png) no-repeat;}
+.skype {background: url(../image/icons/social/skype.png) no-repeat;}
+.spotify {background: url(../image/icons/social/spotify.png) no-repeat;}
+.stumbleupon {background: url(../image/icons/social/stumbleupon.png) no-repeat;}
+.tumblr {background: url(../image/icons/social/tumblr.png) no-repeat;}
+.twitter {background: url(../image/icons/social/twitter.png) no-repeat;}
+.vimeo {background: url(../image/icons/social/vimeo.png) no-repeat;}
+.wordpress {background: url(../image/icons/social/wordpress.png) no-repeat;}
+.xing {background: url(../image/icons/social/xing.png) no-repeat;}
+.yahoo {background: url(../image/icons/social/yahoo.png) no-repeat;}
+.youtube {background: url(../image/icons/social/youtube.png) no-repeat;}
 
 /* List Styles
 ------------------*/
@@ -1013,14 +1013,14 @@ a.sign-up:hover {
     margin: 5px 0;
 }
 
-.check_list li {background: url(../images/icons/list/list_check.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.plus_list  li {background: url(../images/icons/list/list_plus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.minus_list  li {background: url(../images/icons/list/list_minus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
-.star_list  li {background: url(../images/icons/list/list_star.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.arrow_list  li {background: url(../images/icons/list/list_arrow.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.square_list  li {background: url(../images/icons/list/list_square.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.circle_list  li {background: url(../images/icons/list/list_circle.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
-.cross_list  li {background: url(../images/icons/list/list_cross.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.check_list li {background: url(../image/icons/list/list_check.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.plus_list  li {background: url(../image/icons/list/list_plus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.minus_list  li {background: url(../image/icons/list/list_minus.png) no-repeat 0% 50%; padding: 0 0 0 18px;}
+.star_list  li {background: url(../image/icons/list/list_star.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.arrow_list  li {background: url(../image/icons/list/list_arrow.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.square_list  li {background: url(../image/icons/list/list_square.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.circle_list  li {background: url(../image/icons/list/list_circle.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
+.cross_list  li {background: url(../image/icons/list/list_cross.png) no-repeat 0% 50%; padding: 0 0 0 16px;}
 
 
 /* ---------------------------------= */
