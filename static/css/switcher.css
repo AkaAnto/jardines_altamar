@@ -90,24 +90,24 @@ font-size: 14px;
 	.dark, .dark-bg { background: #404040; }
 	.dirty-green, .dirty-green-bg { background: #3b6e40; }
 
-	.bg1 { background-image: url("../images/bg/noise.png"); }
-	.bg2 { background-image: url("../images/bg/retina_dust.png"); }
-	.bg3 { background-image: url("../images/bg/brushed_alu.png"); }
-	.bg4 { background-image: url("../images/bg/crisp_paper_ruffles.png"); }
-	.bg5 { background-image: url("../images/bg/dark_wall.png"); }
-	.bg6 { background-image: url("../images/bg/darkdenim3.png"); }
-	.bg7 { background-image: url("../images/bg/diamond_upholstery.png"); }
-	.bg8 { background-image: url("../images/bg/egg_shell.png"); }
-	.bg9 { background-image: url("../images/bg/light_toast.png"); }
-	.bg10 { background-image: url("../images/bg/noise_pattern_with_crosslines.png"); }
-	.bg11 { background-image: url("../images/bg/purty_wood.png"); }
-	.bg12 { background-image: url("../images/bg/subtle_stripes.png"); }
-	.bg13 { background-image: url("../images/bg/textured_stripes.png"); }
-	.bg14 { background-image: url("../images/bg/tileable_wood_texture.png"); }
-	.bg15 { background-image: url("../images/bg/scribble_light.png"); }
-	.bg16 { background-image: url("../images/bg/vertical_cloth.png"); }
-	.bg17 { background-image: url("../images/bg/vichy.png"); }
-	.bg18 { background-image: url("../images/bg/washi.png"); }
+	.bg1 { background-image: url("../image/bg/noise.png"); }
+	.bg2 { background-image: url("../image/bg/retina_dust.png"); }
+	.bg3 { background-image: url("../image/bg/brushed_alu.png"); }
+	.bg4 { background-image: url("../image/bg/crisp_paper_ruffles.png"); }
+	.bg5 { background-image: url("../image/bg/dark_wall.png"); }
+	.bg6 { background-image: url("../image/bg/darkdenim3.png"); }
+	.bg7 { background-image: url("../image/bg/diamond_upholstery.png"); }
+	.bg8 { background-image: url("../image/bg/egg_shell.png"); }
+	.bg9 { background-image: url("../image/bg/light_toast.png"); }
+	.bg10 { background-image: url("../image/bg/noise_pattern_with_crosslines.png"); }
+	.bg11 { background-image: url("../image/bg/purty_wood.png"); }
+	.bg12 { background-image: url("../image/bg/subtle_stripes.png"); }
+	.bg13 { background-image: url("../image/bg/textured_stripes.png"); }
+	.bg14 { background-image: url("../image/bg/tileable_wood_texture.png"); }
+	.bg15 { background-image: url("../image/bg/scribble_light.png"); }
+	.bg16 { background-image: url("../image/bg/vertical_cloth.png"); }
+	.bg17 { background-image: url("../image/bg/vichy.png"); }
+	.bg18 { background-image: url("../image/bg/washi.png"); }
 	.colors li a.active { box-shadow:0 0 0 2px #404040 inset }
 	
 	@media only screen and (max-width: 1029px) {#style-switcher {display: none;}}
