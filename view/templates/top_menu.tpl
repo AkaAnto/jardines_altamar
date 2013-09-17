@@ -1,4 +1,6 @@
 <ul id="nav">
+    
+{block name="list_top_menu"}
 
                         <li><a href="index.html" class="active">Home</a></li>
 
@@ -48,5 +50,7 @@
 
                             </ul></li>
                         <li><a href="contact.html">Contact</a></li>
+                        
+{/block}
 
                     </ul>
