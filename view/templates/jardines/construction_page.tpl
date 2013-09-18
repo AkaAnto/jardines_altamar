@@ -6,8 +6,6 @@
 
 {/block}
 
-
-
 {block name="header"}
 
         {include 'jardines/header_jardines.tpl'}
@@ -21,11 +19,8 @@
         
 {/block}
 
-
 {block name="content"}
 
-        {include 'jardines/content_jardines.tpl'}
+        {include 'jardines/content_construction.tpl'}
 
 {/block}
-
-

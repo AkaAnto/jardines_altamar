@@ -2,19 +2,20 @@
             <section class="slider">
                 <div class="flexslider home">
                     <ul class="slides">
-
+{block name="slider_image_list"}
                         <li><img src="{$img}slider1.jpg" alt="" /></li>
                         <li><img src="{$img}slider2.jpg" alt="" /></li>
                         <li><img src="http://placehold.it/940x400/72B626/ffffff/&text=Big Responsive Slider" alt="" /></li>
                         <li><img src="http://placehold.it/940x400/495D7F/ffffff/&text=More then 300 Menu Color Combinations" alt="" /></li>
                         <li><img src="http://placehold.it/940x400/C71C77/ffffff/&text=Banner+with+Caption" alt="" />
+
                             <div class="slide-caption">
                                 <h3>This is a caption</h3>
                                 <p>Donec scelerisque aliquet mi, non venenatis urnas iaculis. Utea id nila ante. Cras est massa, interdum  ateal imperdiet etean, gravida eu quame. Aeneana volutpat hendrerit posuere.</p>
                             </div>
                         </li>
 
-
+{/block}
                     </ul>
                 </div>
             </section>

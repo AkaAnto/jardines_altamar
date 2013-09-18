@@ -13,10 +13,12 @@ $smarty->assign("img",Img);
 
 
 
-$smarty->assign("title","Jardines Altamar");
-
 #$smarty->display('base.tpl');
+
 $smarty->display(Template_Dir.'index.tpl');
+
+
+
 
 
 ?>

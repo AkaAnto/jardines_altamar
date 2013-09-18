@@ -21,6 +21,7 @@ define("Css","../static/css/");
 define("Img","../static/image/");
 define("Js","../static/js/");
 
+
 /* Configuración Smarty */
 
 
