@@ -1,6 +1,6 @@
 <div class="jumbotron">
-        <h1>Super awesome marketing speak!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <a class="btn btn-large btn-success" href="#">Sign up today</a>
-        <a class="btn btn-large" href="#">See our Pricing</a>
+        <h1>Página en Construcción</h1>
+        <p class="lead">Estamos trabajando para su comodidad.</p>
+        <a class="btn btn-large btn-success" href="controller.php">Volver</a>
+        
 </div>

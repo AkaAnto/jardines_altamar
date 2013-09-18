@@ -6,6 +6,8 @@
 
 {/block}
 
+
+
 {block name="header"}
 
         {include 'jardines/header_jardines.tpl'}
@@ -15,12 +17,15 @@
 
 {block name="top_menu"}
 
-        {include 'jardines/top_menu_jardines.tpl'}
+        {include 'jardines/top_menu_suppliers_jardines.tpl'}
         
 {/block}
+
 
 {block name="content"}
 
         {include 'jardines/content_construction.tpl'}
 
 {/block}
+
+
