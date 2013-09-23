@@ -1,0 +1,1 @@
+{extends file="../footer_two.tpl"}

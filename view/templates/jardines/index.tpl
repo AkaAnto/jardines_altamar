@@ -29,3 +29,15 @@
 {/block}
 
 
+
+{block name="footer_one"}
+
+        {include 'jardines/jardines_footer_one.tpl'}
+            
+{/block}
+
+{block name="footer_two"}
+
+        {include 'jardines/jardines_footer_two.tpl'}
+            
+{/block}

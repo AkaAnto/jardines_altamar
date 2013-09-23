@@ -24,44 +24,54 @@
        
 
             <div class="row-fluid">
+{block name="features_title"}
                 <div class="headline margintop marginbottom"><h4>Features</h4></div>
+{/block}
             </div>
             <div class="row-fluid">
                 <div class="span3">
                     <div class="featuresbox">
+{block name="laptop_box"}
                         <div class="feature-image"><img src="{$img}laptop-icon.png"></div>
                         <h4>responsive design</h4>
                         <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
                         <button type="button" class="btn">Read More</button>
+{/block}
                     </div>
 
                 </div>
 
                 <div class="span3">
                     <div class="featuresbox">
+{block name="brush_box"}
                         <div class="feature-image"><img src="{$img}brush-icon.png"></div>
                         <h4>color switcher</h4>
                         <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
                         <button type="button" class="btn">Read More</button>
+{/block}
                     </div>
 
                 </div>
                 <div class="span3">
                     <div class="featuresbox">
+{block name="tools_box"}
                         <div class="feature-image"><img src="{$img}tools-icon.png"></div>
                         <h4>html5 &amp; css3</h4>
                         <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
                         <button type="button" class="btn">Read More</button>
+{/block}
                     </div>
 
                 </div>
 
                 <div class="span3">
                     <div class="featuresbox">
+{block name="support_box"}
                         <div class="feature-image"><img src="{$img}support-icon.png"></div>
                         <h4>full support</h4>
                         <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
                         <button type="button" class="btn">Read More</button>
+{/block}
                     </div>
 
                 </div>
@@ -74,7 +84,8 @@
             <div class="row-fluid">
 
                 <div class="span8">
-
+                    
+{block name="recent_work"}
                     <div class="headline marginbottom"><h4>Recent Work</h4></div>
                     <div class="row-fluid">
                         <!-- Project -->
@@ -113,12 +124,13 @@
                         </div>
 
                     </div>
+{/block}
 
                 </div>
                 <!-- Recent Work End -->
                 <!-- Blog Start -->
                 <div class="span4">
-
+{block name="promociones"}
                     <div class="headline marginbottom"><h4>Latest from Blog!</h4></div>
                     <div class="row-fluid">
                         <div class="entry">
@@ -144,13 +156,14 @@
                         </div>
 
                     </div>
-
+{/block}
 
                 </div>
 
             </div>
             <!-- Blog  End -->
             <!-- Clients Start -->
+{block name="our_client"}
             <div class="row-fluid">
                 <div class="span12">
 
@@ -169,4 +182,5 @@
 
                 </div>
             </div>
+{/block}
             

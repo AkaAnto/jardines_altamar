@@ -24,8 +24,21 @@
 
 {block name="content"}
 
-        {include 'jardines/content_construction.tpl'}
+        {include 'jardines/content_products.tpl'}
 
 {/block}
 
+
+
+{block name="footer_one"}
+
+        {include 'jardines/jardines_footer_one.tpl'}
+            
+{/block}
+
+{block name="footer_two"}
+
+        {include 'jardines/jardines_footer_two.tpl'}
+            
+{/block}
 
