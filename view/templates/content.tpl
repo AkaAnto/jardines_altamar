@@ -1,57 +1,45 @@
-                            <!-- SLIDER -->
-            <section class="slider">
-                <div class="flexslider home">
-                    <ul class="slides">
-{block name="slider_image_list"}
-                        <li><img src="{$img}slider1.jpg" alt="" /></li>
-                        <li><img src="{$img}slider2.jpg" alt="" /></li>
-                        <li><img src="http://placehold.it/940x400/72B626/ffffff/&text=Big Responsive Slider" alt="" /></li>
-                        <li><img src="http://placehold.it/940x400/495D7F/ffffff/&text=More then 300 Menu Color Combinations" alt="" /></li>
-                        <li><img src="http://placehold.it/940x400/C71C77/ffffff/&text=Banner+with+Caption" alt="" />
+<div class="row-fluid">
+    <div class="span10 offset1" >
+        <section class="slider ">
+            <div class="flexslider home">
+                <ul class="slides">
+                    {block name="slider_image_list"}
 
-                            <div class="slide-caption">
-                                <h3>This is a caption</h3>
-                                <p>Donec scelerisque aliquet mi, non venenatis urnas iaculis. Utea id nila ante. Cras est massa, interdum  ateal imperdiet etean, gravida eu quame. Aeneana volutpat hendrerit posuere.</p>
-                            </div>
-                        </li>
-
-{/block}
-                    </ul>
-                </div>
-            </section>
-                        <!-- SLIDER END -->
-
-       
-
-            <div class="row-fluid">
-{block name="features_title"}
-                <div class="headline margintop marginbottom"><h4>Features</h4></div>
-{/block}
+                    {/block}
+                </ul>
             </div>
-            <div class="row-fluid">
-                <div class="span3">
-                    <div class="featuresbox">
-{block name="laptop_box"}
-                        <div class="feature-image"><img src="{$img}laptop-icon.png"></div>
-                        <h4>responsive design</h4>
-                        <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
-                        <button type="button" class="btn">Read More</button>
-{/block}
-                    </div>
+        </section>
+    </div>      
+</div>
+<div class="row-fluid">
+    {block name="features_title"}
+                    
+    {/block}
+</div>
+<div class="row-fluid">
+    <div class="span3">
+        <div class="featuresbox">
+        {block name="laptop_box"}
+                                <div class="feature-image"><img src="{$img}laptop-icon.png"></div>
+                                <h4>responsive design</h4>
+                                <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
+                                <button type="button" class="btn">Read More</button>
+        {/block}
+        </div>
 
-                </div>
+    </div>
 
-                <div class="span3">
-                    <div class="featuresbox">
+<div class="span3">
+    <div class="featuresbox">
 {block name="brush_box"}
-                        <div class="feature-image"><img src="{$img}brush-icon.png"></div>
-                        <h4>color switcher</h4>
-                        <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
-                        <button type="button" class="btn">Read More</button>
+        <div class="feature-image"><img src="{$img}brush-icon.png"></div>
+        <h4>color switcher</h4>
+        <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
+        <button type="button" class="btn">Read More</button>
 {/block}
-                    </div>
+    </div>
 
-                </div>
+</div>
                 <div class="span3">
                     <div class="featuresbox">
 {block name="tools_box"}

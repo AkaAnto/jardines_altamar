@@ -3,10 +3,10 @@
 <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <title>.:: Jardines Altamar ::. </title>
+    <meta charset="utf-8">
+    <title>.:: Jardines Altamar ::. </title>
 
 {block name="css_source"}
         <!-- For Mobiles  -->

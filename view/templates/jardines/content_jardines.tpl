@@ -2,20 +2,20 @@
 
 {block name="slider_image_list"}
 
-                <section class="slider">
-                                <div class="flexslider home">
-                                    <ul class="slides">
-                                        <li><img src="{$img}slider2.jpg" alt="" /></li>
-                                        <li><img src="{$img}slider3.jpg" alt="" /></li>
-                                        <li><img src="{$img}slider1.jpg" alt="" />
-                                                <div class="slide-caption">
-                                                <h3>Texto Informativo</h3>
-                                                <p>Texto opcional.</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                </section>
+<section class="slider">
+    <div class="flexslider home">
+        <ul class="slides">
+            <li><img src="{$img}slider2.jpg" alt="" /></li>
+            <li><img src="{$img}slider3.jpg" alt="" /></li>
+            <li><img src="{$img}slider1.jpg" alt="" />
+                <div class="slide-caption">
+                        <h3>Texto Informativo</h3>
+                        <p>Texto opcional.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
 {/block}
 
 
