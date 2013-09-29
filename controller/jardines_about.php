@@ -15,6 +15,6 @@ $smarty->assign("img",Img);
 
 #$smarty->display('base.tpl');
 
-$smarty->display(Template_Dir.'jardines_suppliers.tpl');
+$smarty->display(Template_Dir.'jardines_about.tpl');
 
 ?>

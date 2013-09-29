@@ -17,14 +17,14 @@
 
 {block name="top_menu"}
 
-        {include 'jardines/top_menu_suppliers_jardines.tpl'}
+        {include 'jardines/top_menu_about_jardines.tpl'}
         
 {/block}
 
 
 {block name="content"}
 
-        {include 'jardines/content_construction.tpl'}
+        {include 'jardines/content_contact.tpl'}
 
 {/block}
 

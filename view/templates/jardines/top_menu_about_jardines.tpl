@@ -2,7 +2,9 @@
 
 {block name="list_top_menu"}
 
-    <li><a href="controller.php" class="active">Inicio</a></li>
+    <li><a href="controller.php">Inicio</a></li>
+    
+    <li><a href="jardines_about.php" class="active">Nosotros</a></li>
     
     <li><a href="jardines_products.php">Productos</a></li>
 

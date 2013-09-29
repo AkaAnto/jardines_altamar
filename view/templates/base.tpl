@@ -46,19 +46,55 @@
              
 
                 <div class="row-fluid" id="header">
-{block name="header"}
+                      <div class="span5">
+
+                        <a href="#"><img src="{$img}logo.png" alt="logo" /></a>
+
+                    </div>
+                    <div class="span4 pull-right">
+                        <ul class="social-icons">
+
+                            <li class="facebook"><a href="#">Facebook</a></li>
+                            <li class="twitter"><a href="#">Twitter</a></li>
+                            <li class="dribbble"><a href="#">Dribbble</a></li>
+                            <li class="linkedin"><a href="#">LinkedIn</a></li>
+                            <li class="pintrest"><a href="#">Pintrest</a></li>
+
+                        </ul>
+                        <div id="contact-top">
+
+                            <ul>
+                                <li><i class="icon-envelope"></i><a href="#">support@akmalz.com</a></li>
+                                <li><i class="icon-user"></i>+1 123 456-789</li>
+                            </ul>
+
+                        </div>
+                    </div>
                     
-{/block}
+
                 </div>
 
 
 
 
                 <div id="navigation" class="margintop" style="background-color: rgb(114, 182, 38); background-image: none;">
-{block name="top_menu"}
+
+                    <ul id="nav">
+    
+                        <li><a href="controller.php" class="active">Inicio</a></li>
+    
+                        <li><a href="jardines_about.php">Nosotros</a></li>
+
+                        <li><a href="jardines_products.php">Productos</a></li>
+
+                        <li><a href="jardines_gallery.php">Galeria</a></li>
+
+                        <li><a href="jardines_contact.php">Contacto</a></li>
+
+
+                    </ul>
                     
-{/block}
-                </div> 
+       </div> 
                 <div class="nav-shadow"></div>
                 <div class="clear"></div>
 
@@ -75,17 +111,41 @@
 
 
         <div id="footer" class="container-fluid paddingbottom" >
-{block name="footer_one"}
+<div class="row-fluid">
 
-            
-{/block}
+                <!-- About -->
+                <div class="span4">
+<div class="footer-headline"><h4>Subscribete</h4></div>
+                    <p>Recibe nuestras promociones</p><p>Escribe tu E-mail aquí</p>
+                    <div class="input-append">
+                        <input  id="appendedInputButton"  type="text" class="span7" placeholder="abc@ejemplo.com">
+                        <button class="btn" type="button">Subscribe!</button>
+                    </div>
+
+                </div>
+
+                <!-- Subscribe  -->
+                <div class="span8">
+                    <div class="footer-headline"><h4>Publicidad</h4></div>
+                </div>
+
+            </div>
         </div>
                 
         
         <div id="footer" class="container-fluid" style="background: #111;">
-{block name="footer_two"}
             
-{/block}
+<div class="row-fluid">
+                <div class="span12">
+                    <div id="footer-bottom">
+                        © Copyright 2012 by <a href="#">akmalz</a>. All rights reserved.
+
+                        <div id="scroll-top-top">
+                            <a href="" title="Subir"></a>
+                        </div>
+                    </div>
+                </div>
+</div>
         </div>
 
 
