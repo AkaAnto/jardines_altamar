@@ -10,11 +10,7 @@ $smarty->compile_dir = Smarty_Template_Dir_Comp;
 $smarty->assign("css",Css);
 $smarty->assign("js",Js);
 $smarty->assign("img",Img);
-
-
-
-#$smarty->display('base.tpl');
-
+$smarty->assign("contact",true);
 $smarty->display(Template_Dir.'jardines_contact.tpl');
 
 ?>
