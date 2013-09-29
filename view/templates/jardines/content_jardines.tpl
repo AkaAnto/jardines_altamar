@@ -15,15 +15,6 @@
 
 
 <div class="row-fluid">
-    <div class="span12">
-        <div class="featuresbox">
-
-            
-        </div>
-
-    </div>
-</div>
-<div class="row-fluid">
     <div class="span3">
         <div class="featuresbox">
             <div class="feature-image"><img src="{$img}laptop-icon.png"></div>

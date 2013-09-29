@@ -1,10 +1,10 @@
-<div class="offset2 span1" style="margin-top: -14px; width: 90px;">
+<div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="{$img}logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
      
 </div>
 
-<div class="span6">
+<div class="span9">
     <div id="navigation" class="margintop" style="background-color: rgb(114, 182, 38); background-image: none;">               
         <ul id="nav">
             <li><a href="controller.php" {if isset($home) &&  $home == true}class="active"{/if}>Inicio</a></li>
@@ -23,7 +23,7 @@
     
 </div>
  
-<div class="span2 pull-left" id="header">
+<div class="span1 pull-left" id="header">
     <ul class="social-icons">
 
         <li class="facebook"><a href="#">Facebook</a></li>
