@@ -43,55 +43,22 @@
 
         <div id="wrapper" class="container-fluid">
            <div class="ie-dropdown-fix" >
-             
-
-                <div class="row-fluid" id="header">
-                      <div class="span5">
-
-                        <a href="#"><img src="{$img}logo.png" alt="logo" /></a>
-
-                    </div>
-                    <div class="span4 pull-right">
-                        <ul class="social-icons">
-
-                            <li class="facebook"><a href="#">Facebook</a></li>
-                            <li class="twitter"><a href="#">Twitter</a></li>
-                            <li class="dribbble"><a href="#">Dribbble</a></li>
-                            <li class="linkedin"><a href="#">LinkedIn</a></li>
-                            <li class="pintrest"><a href="#">Pintrest</a></li>
-
-                        </ul>
-                        <div id="contact-top">
-
-                            <ul>
-                                <li><i class="icon-envelope"></i><a href="#">support@akmalz.com</a></li>
-                                <li><i class="icon-user"></i>+1 123 456-789</li>
-                            </ul>
-
-                        </div>
-                    </div>
+             <div class="row-fluid" id="header">
+{block name="header"}
+                   
+    {include file="header.tpl"}
                     
-
+{/block}
                 </div>
-
-
-
 
                 <div id="navigation" class="margintop" style="background-color: rgb(114, 182, 38); background-image: none;">
 
                     <ul id="nav">
-    
-                        <li><a href="controller.php" class="active">Inicio</a></li>
-    
-                        <li><a href="jardines_about.php">Nosotros</a></li>
+{block name="top_menu"}
+               
+        {include file="top_menu.tpl"}
 
-                        <li><a href="jardines_products.php">Productos</a></li>
-
-                        <li><a href="jardines_gallery.php">Galeria</a></li>
-
-                        <li><a href="jardines_contact.php">Contacto</a></li>
-
-
+{/block}
                     </ul>
                     
        </div> 
@@ -111,41 +78,23 @@
 
 
         <div id="footer" class="container-fluid paddingbottom" >
-<div class="row-fluid">
-
-                <!-- About -->
-                <div class="span4">
-<div class="footer-headline"><h4>Subscribete</h4></div>
-                    <p>Recibe nuestras promociones</p><p>Escribe tu E-mail aquí</p>
-                    <div class="input-append">
-                        <input  id="appendedInputButton"  type="text" class="span7" placeholder="abc@ejemplo.com">
-                        <button class="btn" type="button">Subscribe!</button>
-                    </div>
-
-                </div>
-
-                <!-- Subscribe  -->
-                <div class="span8">
-                    <div class="footer-headline"><h4>Publicidad</h4></div>
-                </div>
-
+            <div class="row-fluid">
+{block name="footer"}
+                
+                {include file="footer.tpl"}
+{/block}
             </div>
         </div>
                 
         
         <div id="footer" class="container-fluid" style="background: #111;">
-            
-<div class="row-fluid">
-                <div class="span12">
-                    <div id="footer-bottom">
-                        © Copyright 2012 by <a href="#">akmalz</a>. All rights reserved.
+            <div class="row-fluid">
+{block name="last_footer"}                
 
-                        <div id="scroll-top-top">
-                            <a href="" title="Subir"></a>
-                        </div>
-                    </div>
-                </div>
-</div>
+                {include file="last_footer.tpl"}
+                
+{/block}
+            </div>
         </div>
 
 
