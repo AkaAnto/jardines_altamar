@@ -6,7 +6,7 @@
     <head>
 
         <meta charset="utf-8">
-        <title>{block name="title"}Default title{/block}</title>
+        <title>.:: Jardines Altamar ::. </title>
 
 {block name="css_source"}
         <!-- For Mobiles  -->
