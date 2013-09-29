@@ -1,77 +1,85 @@
-{extends file="../content.tpl"}
 
-{block name="slider_image_list"}
+<div class="row-fluid">
 
-<section class="slider">
-    <div class="flexslider home">
-        <ul class="slides">
-            <li><img src="{$img}slider2.jpg" alt="" /></li>
-            <li><img src="{$img}slider3.jpg" alt="" /></li>
-            <li><img src="{$img}slider1.jpg" alt="" />
-                <div class="slide-caption">
-                        <h3>Texto Informativo</h3>
-                        <p>Texto opcional.</p>
-                </div>
-            </li>
-        </ul>
+    <section class="slider">
+        <div class="flexslider home">
+            <ul class="slides">
+                <li><img src="{$img}exterior_1.jpg" alt="" /></li>
+                <li><img src="{$img}interior_1.jpg" alt="" /></li>
+                <li><img src="{$img}interior_2.jpg" alt="" /> </li>
+                      
+            </ul>
+        </div>
+    </section>
+</div>
+
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="featuresbox">
+
+            
+        </div>
+
     </div>
-</section>
-{/block}
+</div>
+<div class="row-fluid">
+    <div class="span3">
+        <div class="featuresbox">
+            <div class="feature-image"><img src="{$img}laptop-icon.png"></div>
+            <h4>Nosotros</h4>
+            <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
+            <button type="button" class="btn">Leer más</button>
+        </div>
 
+    </div>
+        
 
-{block name="features_title"}
+    <div class="span3">
+        <div class="featuresbox">
+            <div class="feature-image"><img src="{$img}brush-icon.png"></div>
+            <h4>Espacio Publicidad</h4>
+            <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
+            <button type="button" class="btn">Ir...</button>
+         </div>
 
-                <div class="headline margintop marginbottom"><h4>Nombre_Espacio</h4></div>
-{/block}
+    </div>
+         
+    <div class="span3">
+        <div class="featuresbox">
+            <div class="feature-image"><img src="{$img}tools-icon.png"></div>
+            <h4>Espacio Publicidad</h4><!-- Ejemplo de como se coloca el ampersand    html5 &amp; css3</h4>-->
+            <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
+            <button type="button" class="btn">Ir...</button>
+        </div>
 
+    </div>
+            
+    <div class="span3">
+        <div class="featuresbox">
+            <div class="feature-image"><img src="{$img}support-icon.png"></div>
+            <h4>Como Comprar</h4>
+            <p>Pronto podrás hacer tus compras en línea.</p>
+            <a href="#myModal" role="button" class="btn" data-toggle="modal">Leer más</a>
 
-{block name="laptop_box"}
-                        <div class="feature-image"><img src="{$img}laptop-icon.png"></div>
-                        <h4>Nosotros</h4>
-                        <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
-                        <button type="button" class="btn">Leer más</button>
-{/block}
+            <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                  <h3 id="myModalLabel">Etapa en Construcción</h3>
+                </div>
+                <div class="modal-body">
+                    <img src="{$img}tools-icon.png">
+                  <p>Pronto podrás comprar nuestros productos por aquí.</p>
 
+                </div>
+                <div class="modal-footer">
+                  <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
 
-{block name="brush_box"}
-                        <div class="feature-image"><img src="{$img}brush-icon.png"></div>
-                        <h4>Espacio Publicidad</h4>
-                        <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
-                        <button type="button" class="btn">Ir...</button>
-{/block}
-
-
-{block name="tools_box"}
-                        <div class="feature-image"><img src="{$img}tools-icon.png"></div>
-                        <h4>Espacio Publicidad</h4><!-- Ejemplo de como se coloca el ampersand    html5 &amp; css3</h4>-->
-                        <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
-                        <button type="button" class="btn">Ir...</button>
-{/block}
-
-
-{block name="support_box"}
-                        <div class="feature-image"><img src="{$img}support-icon.png"></div>
-                        <h4>Como Comprar</h4>
-                        <p>Pronto podrás hacer tus compras en línea.</p>
-                        <a href="#myModal" role="button" class="btn" data-toggle="modal">Leer más</a>
-                        
-                        <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                            <div class="modal-header">
-                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                              <h3 id="myModalLabel">Etapa en Construcción</h3>
-                            </div>
-                            <div class="modal-body">
-                                <img src="{$img}tools-icon.png">
-                              <p>Pronto podrás comprar nuestros productos por aquí.</p>
-                              
-                            </div>
-                            <div class="modal-footer">
-                              <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                              
-                            </div>
-                      </div>
-{/block}
-
+                </div>
+          </div>
+        </div>
+    </div>
+</div>
 
 {block name="recent_work"}
 
