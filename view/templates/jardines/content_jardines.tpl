@@ -80,56 +80,68 @@
                         <!-- Project -->
                         <div class="span3">
                             <div class="picture">
-                                <a href="{$img}portfolio/p2-large.jpg" rel="image" title="Lugar-fecha">
-                                    <img src="{$img}portfolio/p2.jpg" alt=""/>
+                                <a href="{$img}portfolio/jardin_11.jpg" rel="image" title="Jardín">
+                                    <img src="{$img}portfolio/jardin_1.jpg" alt=""/>
                                     <div class="image-overlay-zoom"></div>
                                 </a>
                             </div>
                             <div class="item-description">
-                                <h5><a href="">Trabajo 1</a></h5>
-                                <p>Breve descripción del trabajo.</p>
+                                <h5><a href="">Jardín</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Quisque id turpis eros. Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit. Maecenas diam urna, tempor id mi posuere, lacinia 
+                                    elementum arcu. Mauris turpis lorem, laoreet vel molestie id, dictum a urna.</p>
                             </div>
                         </div>
 
                         <!-- Project -->
                         <div class="span3">
                             <div class="picture">
-                                <a href="{$img}portfolio/p2-large.jpg" rel="image" title="Lugar-fecha">
-                                    <img src="{$img}portfolio/p2.jpg" alt=""/>
+                                <a href="{$img}portfolio/flores_33.jpg" rel="image" title="Flores">
+                                    <img src="{$img}portfolio/flores_3.jpg" alt=""/>
                                     <div class="image-overlay-zoom"></div>
                                 </a>
                             </div>
                             <div class="item-description">
-                                <h5><a href="">Trabajo 2</a></h5>
-                                <p>Breve descripción del trabajo.</p>
+                                <h5><a href="">Flores</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Quisque id turpis eros. Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit. Maecenas diam urna, tempor id mi posuere, lacinia 
+                                    elementum arcu. Mauris turpis lorem, laoreet vel molestie id, dictum a urna.</p>
                             </div>
                         </div>
 
                         <!-- Project -->
                         <div class="span3">
                             <div class="picture">
-                                <a href="{$img}portfolio/p2-large.jpg" rel="image" title="Lugar-fecha">
-                                    <img src="{$img}portfolio/p2.jpg" alt=""/>
+                                <a href="{$img}portfolio/bouquet_11.jpg" rel="image" title="Bouquet">
+                                    <img src="{$img}portfolio/bouquet_1.jpg" alt=""/>
                                     <div class="image-overlay-zoom"></div>
                                 </a>
                             </div>
                             <div class="item-description">
-                                <h5><a href="">Trabajo 3</a></h5>
-                                <p>Breve descripción del trabajo.</p>
+                                <h5><a href="">Bouquet novia</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Quisque id turpis eros. Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit. Maecenas diam urna, tempor id mi posuere, lacinia 
+                                    elementum arcu. Mauris turpis lorem, laoreet vel molestie id, dictum a urna.</p>
                             </div>
                         </div>
                                     
                         <!-- Project -->
                         <div class="span3">
                             <div class="picture">
-                                <a href="{$img}portfolio/p2-large.jpg" rel="image" title="Lugar-fecha">
-                                    <img src="{$img}portfolio/p2.jpg" alt=""/>
+                                <a href="{$img}portfolio/arreglo_11.jpg" rel="image" title="Arreglos varios">
+                                    <img src="{$img}portfolio/arreglo_1.jpg" alt=""/>
                                     <div class="image-overlay-zoom"></div>
                                 </a>
                             </div>
                             <div class="item-description">
-                                <h5><a href="">Trabajo 4</a></h5>
-                                <p>Breve descripción del trabajo.</p>
+                                <h5><a href="">Arreglo</a></h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Quisque id turpis eros. Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit. Maecenas diam urna, tempor id mi posuere, lacinia 
+                                    elementum arcu. Mauris turpis lorem, laoreet vel molestie id, dictum a urna.</p>
                             </div>
                         </div>
                        
