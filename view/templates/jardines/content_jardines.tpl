@@ -1,7 +1,7 @@
 
 <div class="row-fluid">
 
-    <section class="slider">
+    <section class="slider" >
         <div class="flexslider home">
             <ul class="slides">
                 <li><img src="{$img}exterior_1.jpg" alt="" /></li>
