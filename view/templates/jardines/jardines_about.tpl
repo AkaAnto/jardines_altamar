@@ -3,7 +3,7 @@
 
 {block name="content"}
 
-        {include 'jardines/content_contact.tpl'}
+        {include 'jardines/content_construction.tpl'}
 
 {/block}
 

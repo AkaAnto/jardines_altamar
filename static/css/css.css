@@ -20,14 +20,6 @@ width: 100%;
 }
 
 
-.flexslider.home {
-
-    min-height: 280px;
-    width: 70%;
-    margin-left: 15%;
-    
-}
-
 #navigation ul li a.active {
 background: #FFF;
 color: red;
@@ -48,3 +40,11 @@ body {
     background: url(../image/bg/grass.jpg);
 }
 
+#footer, #footer p, #footer a {
+color: #fff;
+}
+
+.footer-headline h4 {
+    border-bottom: 0px solid #fff;
+
+}

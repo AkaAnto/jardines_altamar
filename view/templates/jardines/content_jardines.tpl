@@ -59,7 +59,7 @@
 
 {block name="recent_work"}
 
-                        <div class="headline marginbottom"><h4>Creaciones Recientes</h4></div>
+                        <div class="headline marginbottom"><h4>Trabajos Recientes</h4></div>
                         
                         <div class="row-fluid">
                         <!-- Project -->
@@ -135,28 +135,3 @@
                     </div>
 {/block}
 
-
-{block name="promociones"}
-                        <div class="headline marginbottom"><h4>Promociones</h4></div>
-                        <div class="row-fluid">
-                        <div class="entry">
-                            <span class="meta"><strong>28</strong><br><small>Oct.</small></span>
-                            <div>
-                                <h4><a href=""><u>Promoción 1</u></a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie. <a href="blog.html">Ver más</a></p>
-                            </div>
-                        </div>
-                        <div class="entry">
-                            <span class="meta"><strong>12</strong><br><small>Sep.</small></span>
-                            <div>
-                                <h4><a href="blog.html"><u>Promoción 2</u></a></h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie. <a href="blog.html">Ver más</a></p>
-                            </div>
-                        </div>
-                        
-                    </div>
-{/block}
-
-
-
-{block name="our_client"}{/block}

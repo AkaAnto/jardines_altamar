@@ -3,7 +3,7 @@
     <div class="row-fluid">
         <div class="span12">
             <div id="footer-bottom">
-                © Copyright 2012 by <a href="#">akmalz</a>. All rights reserved.
+                © Copyright 2013 by <a href="#">Jardines Altamar</a>. Todos los derechos reservados.
 
                 <div id="scroll-top-top">
                     <a href="" title="Subir"></a>
