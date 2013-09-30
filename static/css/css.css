@@ -19,11 +19,32 @@ height: 370px;
 width: 100%;
 }
 
+
 .flexslider.home {
 
     min-height: 280px;
     width: 70%;
     margin-left: 15%;
     
+}
+
+#navigation ul li a.active {
+background: #FFF;
+color: red;
+-webkit-transition: all 0.1s ease-in-out;
+-moz-transition: all 0.1s ease-in-out;
+-o-transition: all 0.1s ease-in-out;
+-ms-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;
+}
+
+body {
+    
+    background: url(../image/bg/grass.jpg);
+
+}
+#footer{
+    
+    background: url(../image/bg/grass.jpg);
 }
 
