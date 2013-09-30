@@ -43,7 +43,7 @@
 </head>
 <body>
 
-<div id="wrapper" class="container-fluid">
+<div id="wrapper" class="container">
     <div class="ie-dropdown-fix" >
        
         {block name="top_menu"}
@@ -58,7 +58,7 @@
 
 
     {/block}
-</div>
+
 
 {block name="footer"}
                 
@@ -73,7 +73,7 @@
                 
 {/block}
             
-
+</div>
 
         
 {literal}
