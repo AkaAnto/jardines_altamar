@@ -32,6 +32,8 @@
         <script src="{$js}fancybox.js"></script>
         <script src="{$js}isotope.js"></script>
         <script src="{$js}bootstrap.js"></script>
+        
+        
 
 {/block}
         
@@ -77,6 +79,7 @@
 
         
 {literal}
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -85,6 +88,78 @@
 
   ga('create', 'UA-40566302-4', 'uexel.us');
   ga('send', 'pageview');
+      
+      
+      $(window).load(function() {
+        var $container = $('#portfolio-wrapper');
+        $select = $('#filters select');
+       	
+        // initialize Isotope
+        $container.isotope({
+            // options...
+            resizable: false, // disable normal resizing
+            // set columnWidth to a percentage of container width
+            
+            masonry: {
+                columnWidth: $container.width() / 12
+            }
+        });
+ $container.isotope({
+            itemSelector : '.portfolio-item'
+        
+        });
+        // update columnWidth on window resize
+        $(window).smartresize(function(){
+            $container.isotope({
+                // update columnWidth to a percentage of container width
+                masonry: {
+                    columnWidth: $container.width() / 12
+                }
+            });
+        });
+		
+		
+	
+	  
+        $select.change(function() {
+            var filters = $(this).val();
+	
+            $container.isotope({
+                filter: filters
+            });
+        });
+	  
+        var $optionSets = $('#filters .option-set'),
+        $optionLinks = $optionSets.find('a');
+
+        $optionLinks.click(function(){
+            var $this = $(this);
+            // don't proceed if already selected
+            if ( $this.hasClass('selected') ) {
+                return false;
+            }
+            var $optionSet = $this.parents('.option-set');
+            $optionSet.find('.selected').removeClass('selected');
+            $this.addClass('selected');
+  
+            // make option object dynamically, i.e. { filter: '.my-filter-class' }
+            var options = {},
+            key = $optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+            // parse 'false' as false boolean
+            value = value === 'false' ? false : value;
+            options[ key ] = value;
+            if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+                // changes in layout modes need extra logic
+                changeLayoutMode( $this, options )
+            } else {
+                // otherwise, apply new options
+                $container.isotope( options );
+            }
+		
+            return false;
+        });
+    });
 
 </script>
 {/literal}

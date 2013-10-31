@@ -17,10 +17,10 @@
 <div class="row-fluid">
     <div class="span3">
         <div class="featuresbox">
-            <div><img src="{$img}icons/carretilla.png" style="width:130px; height:100px"></div>
+            <div><img src="{$img}icons/carretilla_n.jpg" style="width:130px; height:100px"></div>
             <h4>Herramientas</h4>
             <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
-            <button type="button" class="btn">Leer más</button>
+            <button type="button" class="btn"><a href="jardines_products.php">Leer más</a></button>
         </div>
 
     </div>
@@ -28,8 +28,8 @@
 
     <div class="span3">
         <div class="featuresbox">
-            <div><img src="{$img}icons/espatula.png" style="width:130px; height:100px"></div>
-            <h4>Abono</h4>
+            <div><img src="{$img}icons/planta.jpg" style="width:130px; height:100px"></div>
+            <h4>Fertilizantes</h4>
             <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
             <button type="button" class="btn">Leer más</button>
          </div>
@@ -38,8 +38,8 @@
          
     <div class="span3">
         <div class="featuresbox">
-            <div><img src="{$img}icons/brujula.png" style="width:130px; height:100px"></div>
-           <h4>Asesoría</h4>
+            <div><img src="{$img}icons/espatula.png" style="width:130px; height:100px"></div>
+           <h4>Eventos</h4>
             <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
             <button type="button" class="btn">Leer más</button>
         </div>
@@ -48,7 +48,7 @@
             
     <div class="span3">
         <div class="featuresbox">
-             <div><img src="{$img}icons/catalogo.png" style="width:130px; height:100px"></div>
+             <div><img src="{$img}icons/planta_pala.jpg" style="width:130px; height:100px"></div>
             <h4>Variedad</h4>
             <p>Aliquam a nisi sed turpis ornare volutpat a nec massa. Sed sceler isque ultricies vulputate.</p>
             <button type="button" class="btn">Leer más</button>
