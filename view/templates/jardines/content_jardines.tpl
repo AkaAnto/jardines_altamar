@@ -4,9 +4,9 @@
     <section class="slider" >
         <div class="flexslider home">
             <ul class="slides">
-                <li><img src="{$img}exterior_1_a.jpg" alt="" /></li>
-                <li><img src="{$img}interior_1_n.jpg" alt="" /></li>
-                <li><img src="{$img}interior_2_n.jpg" alt="" /> </li>
+                <li><img src="{$img}portada/exterior_1_a_opt.jpg" alt="" /></li>
+                <li><img src="{$img}portada/interior_1_n_opt.jpg" alt="" /></li>
+                <li><img src="{$img}portada/interior_2_n_opt.jpg" alt="" /> </li>
                       
             </ul>
         </div>

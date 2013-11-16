@@ -1,6 +1,6 @@
 <div class="span1" style="margin-top: -14px; width: 90px;">
      
-    <a href="controller.php" ><img src="{$img}logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
+    <a href="controller.php" ><img src="{$img}portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
      
 </div>
 
