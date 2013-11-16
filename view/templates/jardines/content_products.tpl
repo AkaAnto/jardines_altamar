@@ -26,20 +26,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_1">
-                                    Collapsible Group Item #1
+                                    Categoría #1
                                 </a>
                             </div>
                             <div id="collapse_1" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_1</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_2</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_3</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_4</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -47,20 +54,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_2">
-                                    Collapsible Group Item #2
+                                    Categoría #2
                                 </a>
                             </div>
                             <div id="collapse_2" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_5</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_6</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_7</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_8</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -68,20 +82,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_3">
-                                    Collapsible Group Item #3
+                                    Categoría #3
                                 </a>
                             </div>
                             <div id="collapse_3" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_9</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_10</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_11</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_12</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -103,20 +124,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse_4">
-                                    Collapsible Group Item #4
+                                    Categoría #4
                                 </a>
                             </div>
                             <div id="collapse_4" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_1</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_2</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_3</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_4</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -124,20 +152,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse_5">
-                                    Collapsible Group Item #5
+                                    Categoría #5
                                 </a>
                             </div>
                             <div id="collapse_5" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_1</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_2</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_3</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_4</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -145,20 +180,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse_6">
-                                    Collapsible Group Item #6
+                                    Categoría #6
                                 </a>
                             </div>
                             <div id="collapse_6" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_1</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_2</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_3</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_4</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -181,20 +223,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_7">
-                                    Collapsible Group Item #7
+                                    Categoría #7
                                 </a>
                             </div>
                             <div id="collapse_7" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_1</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_2</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_3</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_4</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -202,20 +251,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_8">
-                                    Collapsible Group Item #8
+                                    Categoría #8
                                 </a>
                             </div>
                             <div id="collapse_8" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_1</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_2</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_3</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_4</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
@@ -223,20 +279,27 @@
                         <div class="accordion-group">
                             <div class="accordion-heading">
                                 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion3" href="#collapse_9">
-                                    Collapsible Group Item #9
+                                    Categoría #9
                                 </a>
                             </div>
                             <div id="collapse_9" class="accordion-body collapse" style="height: 0px; ">
                                 <div class="accordion-inner">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus 
-                                    terry richardson ad squid. 3 wolf moon officia aute, non cupidatat 
-                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. 
-                                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin 
-                                    coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, 
-                                    craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan 
-                                    excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, 
-                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus 
-                                    labore sustainable VHS.
+                                    <div class="tooltip-demo">
+                                        <ul class="bs-docs-tooltip-examples">
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_1</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_2</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_3</a>
+                                            </li>
+                                            <li>
+                                            <a href="" rel="tooltip" data-placement="right" data-original-title="Ubicación en galeria">Producto_4</a>
+                                            </li>
+                                        </ul>
+                                     </div>
                                 </div>
                             </div>
                         </div>
