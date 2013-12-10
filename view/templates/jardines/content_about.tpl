@@ -40,7 +40,7 @@
     <div class="span4">
         
         <center>
-            <a href="controller.php" ><img src="{$img}logo_jardines.png" width="100px" height="100px" class="logo"/></a>
+            <a href="controller.php" ><img src="{$img}portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
         </center>
     
     </div>
@@ -48,7 +48,7 @@
     <div class="span4">
         
         <center>
-            <a href="controller.php" ><img src="{$img}logo_jardines.png" width="100px" height="100px" class="logo"/></a>
+            <a href="controller.php" ><img src="{$img}portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
         </center>
     
     </div>
@@ -56,7 +56,7 @@
     <div class="span4">
         
         <center>
-            <a href="controller.php" ><img src="{$img}logo_jardines.png" width="100px" height="100px" class="logo"/></a>
+            <a href="controller.php" ><img src="{$img}portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
         </center>
     
     </div>
