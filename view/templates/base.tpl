@@ -50,7 +50,7 @@
        
         {block name="top_menu"}
 
-                {include file="top_menu.tpl"}
+                {include file="../top_menu.tpl"}
 
         {/block}
 
