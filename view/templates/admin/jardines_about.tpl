@@ -1,4 +1,4 @@
-{extends file="../base.tpl"}
+{extends file="../base_admin.tpl"}
 
 
 {block name="content"}

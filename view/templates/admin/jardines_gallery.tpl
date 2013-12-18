@@ -1,9 +1,9 @@
-{extends file="../base.tpl"}
+{extends file="../base_admin.tpl"}
 
 
 {block name="content"}
 
-        {include 'jardines/content_gallery.tpl'}
+        {include 'admin/content_gallery.tpl'}
 
 {/block}
 
