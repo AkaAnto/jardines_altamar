@@ -6,7 +6,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title> .:: Jardines Altamar ::. </title> 
+    <title> .:: Jardín Altamar ::. </title> 
 
 {block name="css_source"}
         <!-- For Mobiles  -->

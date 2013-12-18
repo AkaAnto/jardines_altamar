@@ -1,6 +1,6 @@
 <?php
 
-include_once 'Conf/Configuracion.php';
+include_once '../Conf/Configuracion.php';
 include_once Configuracion;
 include_once Smarty_Include;
 
@@ -10,7 +10,7 @@ $smarty->compile_dir = Smarty_Template_Dir_Comp;
 $smarty->assign("css",Css);
 $smarty->assign("js",Js);
 $smarty->assign("img",Img);
-$smarty->assign("products",true);
-$smarty->display(Template_Dir.'jardines_products.tpl');
+$smarty->assign("contact",true);
+$smarty->display(Template_Dir.'jardines_contact.tpl');
 
 ?>

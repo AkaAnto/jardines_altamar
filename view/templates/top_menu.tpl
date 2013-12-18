@@ -7,15 +7,15 @@
 <div class="span9">
     <div id="navigation" class="margintop" style="background-color: rgb(114, 182, 38); background-image: none;">               
         <ul id="nav">
-            <li><a href="controller.php" {if isset($home) &&  $home == true}class="active"{/if}>Inicio</a></li>
+            <li><a href="/jardines_altamar/" {if isset($home) &&  $home == true}class="active"{/if}>Inicio</a></li>
 
-            <li><a href="jardines_about.php" {if isset($about) && $about == True}class="active"{/if}>Nosotros</a></li>
+            <li><a href="/jardines_altamar/nosotros/" {if isset($about) && $about == True}class="active"{/if}>Nosotros</a></li>
 
-            <li><a href="jardines_products.php" {if isset($products) && $products == True}class="active"{/if}>Productos</a></li>
+            <li><a href="/jardines_altamar/productos/" {if isset($products) && $products == True}class="active"{/if}>Productos</a></li>
 
-            <li><a href="jardines_gallery.php" {if isset($gallery) && $gallery == True}class="active"{/if}>Galeria</a></li>
+            <li><a href="/jardines_altamar/galeria/" {if isset($gallery) && $gallery == True}class="active"{/if}>Galería</a></li>
 
-            <li><a href="jardines_contact.php" {if isset($contact) && $contact == True}class="active"{/if}>Contacto</a></li>
+            <li><a href="/jardines_altamar/contacto/" {if isset($contact) && $contact == True}class="active"{/if}>Contacto</a></li>
         </ul>
        
        

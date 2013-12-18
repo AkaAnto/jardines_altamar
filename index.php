@@ -1,6 +1,6 @@
 <?php
 
-include_once 'Conf/Configuracion.php';
+include_once 'Conf/Configuracion_Index.php';
 include_once Configuracion;
 include_once Smarty_Include;
 
