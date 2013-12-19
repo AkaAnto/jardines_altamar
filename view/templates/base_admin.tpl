@@ -55,7 +55,20 @@
         {/block}
 
     </div>                     
-
+     {if isset($error_message) }
+        <div class="alert alert-error" contenteditable="true">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+           
+            <strong>{$error_message}</strong> 
+        </div>
+        {/if}
+        {if isset($info_message) }
+        <div class="alert alert-info" contenteditable="true">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+          
+            <strong>{$info_message}</strong> 
+        </div>
+        {/if}
     {block name="content"}
 
 

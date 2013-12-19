@@ -1,42 +1,34 @@
-{extends file="../base.tpl"}
+{extends file="base.tpl"}
 
 {block name="content"}
 
-<div class="view">
+<div class="view" style ="margin-top:50px; margin-bottom: 50px;">
+    <h3 class="text-center text-success">Formulario de Inicio de Sesión</h3>
     <div class="row-fluid clearfix">
-        <div class="span12 column ui-sortable">
-            <div class="box box-element ui-draggable" style="display: block;">
-                <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>remove</a>
-                <span class="drag label"><i class="icon-move"></i>drag</span>
-                <span class="configuration">
-                </span>
-                <div class="preview">Horizontal Form</div>
+      
                 <div class="view">
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" method="post" action="../admin/index.php">
                         <div class="control-group">
                             <label class="control-label" for="inputEmail" contenteditable="true">Email</label>
                             <div class="controls">
-                                <input type="text" id="inputEmail" placeholder="Email">
+                                <input type="text" id="inputEmail" placeholder="Email" name="username">
                             </div>
                         </div>
                         <div class="control-group">
-                            <label class="control-label" for="inputPassword" contenteditable="true">Password</label>
+                            <label class="control-label" for="inputPassword" contenteditable="true">Contraseña</label>
                             <div class="controls">
-                                <input type="password" id="inputPassword" placeholder="Password">
+                                <input type="password" name="password" id="inputPassword" placeholder="Contraseña">
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="controls">
-                                <label class="checkbox" contenteditable="true">
-                                    <input type="checkbox"> Remember me
-                                </label>
-                                <button type="submit" class="btn" contenteditable="true">Sign in</button>
+                                
+                                <button type="submit" class="btn" contenteditable="true">Entrar</button>
                             </div>
                         </div>
                     </form>
-                </div>
-            </div></div>
-    </div>
+                    </div>
+        </div>
 </div>
 
 {/block}
