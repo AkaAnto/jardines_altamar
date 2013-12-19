@@ -5,9 +5,9 @@ define("Configuracion", "Conf/Conf_Local.php");
 
 /*Configuración Smarty */
 define("Smarty_Include", "view/Smarty/libs/Smarty.class.php");       
-define("Smarty_Template_Dir", "view/templates/jardines/");           
+define("Smarty_Template_Dir", "view/templates/");           
 define("Smarty_Template_Dir_Comp", "view/templates_c/");
-define("Template_Dir", "view/templates/jardines/");
+define("Template_Dir", "view/templates/");
 define("Smarty_Conf", "Conf/Smarty_Conf.php");
 
 /* Configuración Static */
