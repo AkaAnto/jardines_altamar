@@ -8,6 +8,7 @@ define("Smarty_Include", "../view/Smarty/libs/Smarty.class.php");
 define("Smarty_Template_Dir", "../view/templates/");           
 define("Smarty_Template_Dir_Comp", "../view/templates_c/");
 define("Template_Dir", "../view/templates/");
+define("Template_Dir_admin", "../view/templates/admin/");
 define("Smarty_Conf", "../Conf/Smarty_Conf.php");
 
 /* Configuración Static */

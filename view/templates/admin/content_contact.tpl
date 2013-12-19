@@ -11,35 +11,6 @@
 
             </div>
             <div class="row-fluid">
-            
-                <!-- Standard Structure -->
-                <div class="span8">
-                    
-                    Descripción:<textarea id="texarea_contact" name="texarea_contact" rows="5" cols="50"></textarea>
-
-                   
-                    
-                    <div id="contact-form" >
-                        
-                            <fieldset>
-                                <label>Nombre</label>
-                                <input type="text" class="input-xlarge">
-
-                                <label>Email</label>
-                                <input type="text" class="input-xlarge">
-
-                                <label>Mensaje</label>
-                                <textarea rows="6" class="input-xxlarge"></textarea>
-
-
-
-                            </fieldset>
-                            <button type="submit" class="btn btn-inverse">Enviar</button>
-                        
-                    </div>
-                </div>
-
-
 
                 <div class="span4 google-map">
 
