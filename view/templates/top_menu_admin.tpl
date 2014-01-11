@@ -7,7 +7,7 @@
 <div class="span9">
     <div id="navigation" class="margintop" style="background-color: rgb(114, 182, 38); background-image: none;">               
         <ul id="nav">
-            <li><a href="controller_admin.php" {if isset($home) &&  $home == true}class="active"{/if}>Inicio</a></li>
+            <li><a href="index.php" {if isset($home) &&  $home == true}class="active"{/if}>Inicio</a></li>
 
             <li><a href="jardines_about_admin.php" {if isset($about) && $about == True}class="active"{/if}>Nosotros</a></li>
 

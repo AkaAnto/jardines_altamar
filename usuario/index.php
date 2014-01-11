@@ -8,7 +8,12 @@ include_once User;
 
 session_start();
 if (isset ($_SESSION['username'])){
-    $smarty->assign("info_message", "Bienvenido al sistema ".$_SESSION['username']);
+	if (!isset($_SESSION['success_message'])){
+    	$smarty->assign("success_message", "Bienvenido al sistema ".$_SESSION['username']);
+    }
+    else{
+    	 $smarty->assign("success_message", $_SESSION['success_message'] );
+    }
     $smarty->display(Template_Dir.'/admin/index.tpl');   
 }
 else{

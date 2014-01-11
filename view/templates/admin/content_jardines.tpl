@@ -1,19 +1,10 @@
-<form action="edit_index.php" method="post">
+
 <div class="row-fluid">
 
-    <section class="slider" >
-        <div class="flexslider home">
-            <ul class="slides">
-                <li><img src="{$img}portada/exterior_1_a_opt.jpg" alt="" /></li>
-                <li><img src="{$img}portada/interior_1_n_opt.jpg" alt="" /></li>
-                <li><img src="{$img}portada/interior_2_n_opt.jpg" alt="" /> </li>
-                      
-            </ul>
-        </div>
-    </section>
+    {include file="admin/slider_files.tpl"}
 </div>
 
-
+<hr>
 <div class="row-fluid">
     <div class="span3">
         <div class="featuresbox">
@@ -119,7 +110,6 @@
 
                     </div>
 
-<input type="submit">
-</form>
+
 {/block}
 
