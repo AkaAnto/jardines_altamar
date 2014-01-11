@@ -7,6 +7,7 @@ include_once 'Util_File.php';
 define ("login", "select * from user where username= % and password = % and is_active=1");
 define ("categories", "select * from categoria");
 define ("product_links", "select * from link_productos");
+define ("edit_product_links","Update link_productos set categoria='%', Descripcion='%', foto='%' where id=% ");
 define ("change_user_password","Update user set password='%' where username='%'");
 define ("change_user_email","Update user set email='%' where username='%'");
 define ("index", "<?php ?>");
@@ -101,6 +102,19 @@ class User extends Util_DataBase {
         return $product_links;
     }
    
+    public static function edit_product_links($id, $categoria,$descripcion,$foto){
+        $values = array();
+        $values[0] =$categoria;
+        $values[1] =$descripcion;
+        $values[2] =$foto;
+        $values[3] =$id;
+        $query = Util_String::concatenate(edit_product_links, $values);
+        $product = User::execute_query($query);
+        if ($product != false){
+            return true;
+        }
+        return false;
+    }
     
     
 }
