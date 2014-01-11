@@ -28,7 +28,7 @@
             <button type="button" class="btn"><a href="jardines_products.php">Leer más</a></button>
         </div>
     </div>
-    {/foreach}    
+   {/foreach}
    
 </div>
 

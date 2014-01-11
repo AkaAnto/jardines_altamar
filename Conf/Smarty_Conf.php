@@ -40,9 +40,17 @@ function smarty_function_recent_works($params, &$smarty)
 }
 
 
+function smarty_function_about_us($params, &$smarty)
+{   
+    $smarty->assign('about_us', User::about_us());
+   
+   
+}
+
+
 $smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');
 $smarty->registerPlugin("function",'products_categories', 'smarty_function_products_categories');
 $smarty->registerPlugin("function",'product_links', 'smarty_function_product_links');
 $smarty->registerPlugin("function",'recent_works', 'smarty_function_recent_works');
-
+$smarty->registerPlugin("function",'about_us_list', 'smarty_function_about_us');
 ?>
