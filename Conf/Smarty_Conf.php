@@ -15,7 +15,24 @@ function smarty_function_slider_files($params, &$smarty)
     $smarty->assign('slider_files_list', User::slider_files_list());
     $smarty->assign("slider_files_directoy",uploads.'slider/');
 }
-$smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');
 
+
+function smarty_function_products_categories($params, &$smarty)
+{   
+    $smarty->assign('products_categories', User::products_categories());
+   
+}
+
+
+function smarty_function_product_links($params, &$smarty)
+{   
+    $smarty->assign('product_links', User::product_links());
+     $smarty->assign("category_directoy",uploads.'category/');
+   
+}
+
+$smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');
+$smarty->registerPlugin("function",'products_categories', 'smarty_function_products_categories');
+$smarty->registerPlugin("function",'product_links', 'smarty_function_product_links');
 
 ?>

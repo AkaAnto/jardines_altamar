@@ -5,6 +5,8 @@ include_once 'Util_String.php';
 include_once 'Util_File.php';
 
 define ("login", "select * from user where username= % and password = % and is_active=1");
+define ("categories", "select * from categoria");
+define ("product_links", "select * from link_productos");
 define ("change_user_password","Update user set password='%' where username='%'");
 define ("change_user_email","Update user set email='%' where username='%'");
 define ("index", "<?php ?>");
@@ -85,11 +87,19 @@ class User extends Util_DataBase {
     }
     
     public static function slider_files_list(){
-
         $slider_files = Util_File::list_files_in_directory('slider/', uploads);
         return $slider_files;
     }
     
+    public static function products_categories(){
+        $categories = User::execute_select(categories);
+        return $categories;
+    }
+    
+     public static function product_links(){
+        $product_links = User::execute_select(product_links);
+        return $product_links;
+    }
    
     
     

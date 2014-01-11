@@ -14,7 +14,7 @@ if (isset ($_SESSION['username'])){
     else{
     	 $smarty->assign("success_message", $_SESSION['success_message'] );
     }
-    $smarty->display(Template_Dir.'/admin/index.tpl');   
+    $smarty->display(Template_Dir.'index.tpl');   
 }
 else{
   $smarty->display(Template_Dir.'/index.tpl'); 
