@@ -7,6 +7,7 @@ include_once 'Util_File.php';
 define ("login", "select * from user where username= % and password = % and is_active=1");
 define ("categories", "select * from categoria");
 define ("product_links", "select * from link_productos");
+define ("recent_works", "select * from trabajo ORDER BY id DESC LIMIT 4");
 define ("edit_product_links","Update link_productos set categoria='%', Descripcion='%', foto='%' where id=% ");
 define ("change_user_password","Update user set password='%' where username='%'");
 define ("change_user_email","Update user set email='%' where username='%'");
@@ -97,7 +98,7 @@ class User extends Util_DataBase {
         return $categories;
     }
     
-     public static function product_links(){
+    public static function product_links(){
         $product_links = User::execute_select(product_links);
         return $product_links;
     }
@@ -114,6 +115,11 @@ class User extends Util_DataBase {
             return true;
         }
         return false;
+    }
+
+    public static function recent_works(){
+        $recent_works = User::execute_select(recent_works);
+        return $recent_works;
     }
     
     

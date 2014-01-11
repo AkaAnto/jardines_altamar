@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:42:58
-         compiled from "..\view\templates\jardines_about.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2483952d14a62c69de1-69663427%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 17:38:51
+         compiled from "..\view\templates\admin\jardines_about.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2613952d181ab32f286-86387018%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'bc2e7db4d6b511cd786460534577b46a5cd869b0' => 
+    'd6592ce5af18bd65cc287a1f9d03a881a34970b5' => 
     array (
-      0 => '..\\view\\templates\\jardines_about.tpl',
-      1 => 1387416688,
+      0 => '..\\view\\templates\\admin\\jardines_about.tpl',
+      1 => 1387333929,
       2 => 'file',
     ),
-    'bffc0d8d1c8c8d973f5580d5f44af2c79c4c12e6' => 
+    'e05fe94494c7dcf56fa17b13ddd6b0b460b74352' => 
     array (
-      0 => '..\\view\\templates\\base.tpl',
-      1 => 1387423750,
+      0 => 'C:\\wamp\\www\\jardines_altamar\\view\\templates\\base_admin.tpl',
+      1 => 1389447073,
       2 => 'file',
     ),
-    '2b810283d6dc2137e00a18cc6cd5752df92aadc3' => 
+    '064147bbb0ac607e38bce053ec6287f4ea0493bc' => 
     array (
-      0 => '..\\view\\templates\\top_menu.tpl',
-      1 => 1387340180,
+      0 => '..\\view\\templates\\top_menu_admin.tpl',
+      1 => 1389414481,
       2 => 'file',
     ),
-    'b55352a0211676c780c6de4dd571229869fccc22' => 
+    '7935d108c5b01b2cd0a99f5ed95afc18fc295fff' => 
     array (
-      0 => '..\\view\\templates\\content_about.tpl',
-      1 => 1387416512,
+      0 => '..\\view\\templates\\admin\\content_about.tpl',
+      1 => 1387333929,
       2 => 'file',
     ),
     '1999ef54d929ec494d4354e63dec316211d50653' => 
@@ -41,7 +41,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2483952d14a62c69de1-69663427',
+  'nocache_hash' => '2613952d181ab32f286-86387018',
   'function' => 
   array (
   ),
@@ -50,13 +50,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'css' => 0,
     'js' => 0,
     'error_message' => 0,
-    'info_message' => 0,
+    'success_message' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52d14a639649c6_28225549',
+  'unifunc' => 'content_52d181acc38032_40743326',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52d14a639649c6_28225549')) {function content_52d14a639649c6_28225549($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_52d181acc38032_40743326')) {function content_52d181acc38032_40743326($_smarty_tpl) {?><!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
@@ -64,7 +64,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <head>
 
     <meta charset="utf-8">
-    <title> .:: Jardín Altamar ::. </title> 
+    <title> .:: Jardines Altamar ::. </title> 
 
 
         <!-- For Mobiles  -->
@@ -104,6 +104,8 @@ fancybox.js"></script>
 isotope.js"></script>
         <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
 bootstrap.js"></script>
+        <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
+jardin_altamar.js"></script>
         
         
 
@@ -124,16 +126,16 @@ switcher.js"></script>
        
         
 
-                <?php /*  Call merged included template "top_menu.tpl" */
+                <?php /*  Call merged included template "top_menu_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2483952d14a62c69de1-69663427');
-content_52d14a63234a98_72798520($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tpl" */?>
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2613952d181ab32f286-86387018');
+content_52d181abdce103_27907341($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_admin.tpl" */?>
 
         
 
-    </div>         
-        <?php if (isset($_smarty_tpl->tpl_vars['error_message']->value)){?>
+    </div>                     
+     <?php if (isset($_smarty_tpl->tpl_vars['error_message']->value)){?>
         <div class="alert alert-error" contenteditable="true">
             <button type="button" class="close" data-dismiss="alert">×</button>
            
@@ -141,31 +143,48 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tp
 </strong> 
         </div>
         <?php }?>
-        <?php if (isset($_smarty_tpl->tpl_vars['info_message']->value)){?>
+        
+        <?php if (isset($_smarty_tpl->tpl_vars['success_message']->value)){?>
         <div class="alert alert-info" contenteditable="true">
             <button type="button" class="close" data-dismiss="alert">×</button>
           
-            <strong><?php echo $_smarty_tpl->tpl_vars['info_message']->value;?>
+            <strong><?php echo $_smarty_tpl->tpl_vars['success_message']->value;?>
 </strong> 
         </div>
         <?php }?>
     
 
-        <?php /*  Call merged included template "content_about.tpl" */
+        <?php /*  Call merged included template "admin/content_about.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('content_about.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2483952d14a62c69de1-69663427');
-content_52d14a63788058_20149722($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "content_about.tpl" */?>
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_about.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2613952d181ab32f286-86387018');
+content_52d181ac7985a2_35081703($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_about.tpl" */?>
 
 
 
-
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Confirmar eliminaciòn</h3>
+      </div>
+      <div class="modal-body">
+        <p>Esta seguro que desea eliminar el archivo ?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>
+        <button class="btn btn-danger" id="delete">Eliminar</button>
+        <form method="post" action="delete_slider_file.php" id="delete_form">
+            <input type="hidden" class="input-medium search-query" value="" id="file_name" name="file_name"/>
+            
+        </form>
+      </div>
+</div>
 
                 
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2483952d14a62c69de1-69663427');
-content_52d14a63882097_71822080($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2613952d181ab32f286-86387018');
+content_52d181aca72dc2_11932762($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -175,8 +194,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
 
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2483952d14a62c69de1-69663427');
-content_52d14a63906db3_57016346($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2613952d181ab32f286-86387018');
+content_52d181acba7797_07288366($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -271,9 +290,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:42:59
-         compiled from "..\view\templates\top_menu.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d14a63234a98_72798520')) {function content_52d14a63234a98_72798520($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 17:38:51
+         compiled from "..\view\templates\top_menu_admin.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_52d181abdce103_27907341')) {function content_52d181abdce103_27907341($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -283,15 +302,15 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
 <div class="span9">
     <div id="navigation" class="margintop" style="background-color: rgb(114, 182, 38); background-image: none;">               
         <ul id="nav">
-            <li><a href="/jardines_altamar/" <?php if (isset($_smarty_tpl->tpl_vars['home']->value)&&$_smarty_tpl->tpl_vars['home']->value==true){?>class="active"<?php }?>>Inicio</a></li>
+            <li><a href="index.php" <?php if (isset($_smarty_tpl->tpl_vars['home']->value)&&$_smarty_tpl->tpl_vars['home']->value==true){?>class="active"<?php }?>>Inicio</a></li>
 
-            <li><a href="/jardines_altamar/nosotros/" <?php if (isset($_smarty_tpl->tpl_vars['about']->value)&&$_smarty_tpl->tpl_vars['about']->value==true){?>class="active"<?php }?>>Nosotros</a></li>
+            <li><a href="jardines_about_admin.php" <?php if (isset($_smarty_tpl->tpl_vars['about']->value)&&$_smarty_tpl->tpl_vars['about']->value==true){?>class="active"<?php }?>>Nosotros</a></li>
 
-            <li><a href="/jardines_altamar/productos/" <?php if (isset($_smarty_tpl->tpl_vars['products']->value)&&$_smarty_tpl->tpl_vars['products']->value==true){?>class="active"<?php }?>>Productos</a></li>
+            <li><a href="jardines_products_admin.php" <?php if (isset($_smarty_tpl->tpl_vars['products']->value)&&$_smarty_tpl->tpl_vars['products']->value==true){?>class="active"<?php }?>>Productos</a></li>
 
-            <li><a href="/jardines_altamar/galeria/" <?php if (isset($_smarty_tpl->tpl_vars['gallery']->value)&&$_smarty_tpl->tpl_vars['gallery']->value==true){?>class="active"<?php }?>>Galería</a></li>
+            <li><a href="jardines_gallery_admin.php" <?php if (isset($_smarty_tpl->tpl_vars['gallery']->value)&&$_smarty_tpl->tpl_vars['gallery']->value==true){?>class="active"<?php }?>>Galeria</a></li>
 
-            <li><a href="/jardines_altamar/contacto/" <?php if (isset($_smarty_tpl->tpl_vars['contact']->value)&&$_smarty_tpl->tpl_vars['contact']->value==true){?>class="active"<?php }?>>Contacto</a></li>
+            <li><a href="jardines_contact_admin.php" <?php if (isset($_smarty_tpl->tpl_vars['contact']->value)&&$_smarty_tpl->tpl_vars['contact']->value==true){?>class="active"<?php }?>>Contacto</a></li>
         </ul>
        
        
@@ -312,9 +331,9 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:42:59
-         compiled from "..\view\templates\content_about.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d14a63788058_20149722')) {function content_52d14a63788058_20149722($_smarty_tpl) {?><div class="row-fluid">
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 17:38:52
+         compiled from "..\view\templates\admin\content_about.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_52d181ac7985a2_35081703')) {function content_52d181ac7985a2_35081703($_smarty_tpl) {?><div class="row-fluid">
 
 	
 		<!-- Page Title -->
@@ -327,28 +346,33 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
 </div>
 
 <div class="row-fluid">
-    
-    <div class="span4">
-		<div class="headline"><h4>La Empresa</h4></div>
-		<p>Donec odio ut arcu fringilla dictum eu eu nisl. Donec rutrum erat non arcu gravida porttitor. Nunc et magna nisi.Aliquam at erat in purus aliquet mollis. Fusce elementum velit vel dolor iaculis egestas. Maecenas ut nulla quis eros scelerisque posuere vel vitae nibh. Proin id condimentum sem. Morbi vitae dui in magna vestibulum suscipit vitae vel nunc. Integer ut risus nulla. malesuada tortor, nec scelerisque lorem mattis.</p>
-		<p>Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum</p>
-		<p>Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam. Aliquam erat volutpat. Sed tetur suscipit nunc et rutrum. </p>
-    </div>
-    
-    <div class="span4">
-		<div class="headline"><h4>Misión</h4></div>
-		<p>Donec odio ut arcu fringilla dictum eu eu nisl. Donec rutrum erat non arcu gravida porttitor. Nunc et magna nisi.Aliquam at erat in purus aliquet mollis. Fusce elementum velit vel dolor iaculis egestas. Maecenas ut nulla quis eros scelerisque posuere vel vitae nibh. Proin id condimentum sem. Morbi vitae dui in magna vestibulum suscipit vitae vel nunc. Integer ut risus nulla. malesuada tortor, nec scelerisque lorem mattis.</p>
-		<p>Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum</p>
-		<p>Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam. Aliquam erat volutpat. Sed tetur suscipit nunc et rutrum. </p>
-    </div>
-    
-    <div class="span4">
-		<div class="headline"><h4>Visión</h4></div>
-		<p>Donec odio ut arcu fringilla dictum eu eu nisl. Donec rutrum erat non arcu gravida porttitor. Nunc et magna nisi.Aliquam at erat in purus aliquet mollis. Fusce elementum velit vel dolor iaculis egestas. Maecenas ut nulla quis eros scelerisque posuere vel vitae nibh. Proin id condimentum sem. Morbi vitae dui in magna vestibulum suscipit vitae vel nunc. Integer ut risus nulla. malesuada tortor, nec scelerisque lorem mattis.</p>
-		<p>Nunc et rutrum consetetur sadipscing elitr, sed diam nonumy at volutpat. Sed consectetur suscipit lorem nunc.adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum</p>
-		<p>Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam. Aliquam erat volutpat. Sed tetur suscipit nunc et rutrum. </p>
-    </div>
-
+    <form action="edit_about.php" method="post">
+        
+        <div class="span4">
+            <div class="headline"><h4>La Empresa</h4></div>
+            
+            <textarea id="texarea_empresa" name="empresa" rows="10" cols="50"></textarea>
+            
+        </div>
+        
+        
+        <div class="span4">
+            <div class="headline"><h4>Misión</h4></div>
+		
+            <textarea id="texarea_mision" name="mision" rows="10" cols="50"></textarea>
+                        
+                    
+        </div>
+        
+        <div class="span4">
+            <div class="headline"><h4>Visión</h4></div>
+            
+            <textarea id="texarea_vision" name="vision" rows="10" cols="50"></textarea>
+                        
+        </div>
+        
+        <input type="submit">
+    </form>
 </div>
 
 <div class="row-fluid">
@@ -381,9 +405,9 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
     </div>
 
 
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:42:59
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 17:38:52
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d14a63882097_71822080')) {function content_52d14a63882097_71822080($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d181aca72dc2_11932762')) {function content_52d181aca72dc2_11932762($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -403,9 +427,9 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:42:59
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 17:38:52
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d14a63906db3_57016346')) {function content_52d14a63906db3_57016346($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d181acba7797_07288366')) {function content_52d181acba7797_07288366($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">

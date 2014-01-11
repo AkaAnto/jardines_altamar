@@ -31,8 +31,18 @@ function smarty_function_product_links($params, &$smarty)
    
 }
 
+
+function smarty_function_recent_works($params, &$smarty)
+{   
+    $smarty->assign('recent_works', User::recent_works());
+    $smarty->assign("works_directoy",uploads.'works/');
+   
+}
+
+
 $smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');
 $smarty->registerPlugin("function",'products_categories', 'smarty_function_products_categories');
 $smarty->registerPlugin("function",'product_links', 'smarty_function_product_links');
+$smarty->registerPlugin("function",'recent_works', 'smarty_function_recent_works');
 
 ?>
