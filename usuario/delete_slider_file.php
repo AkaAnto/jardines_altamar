@@ -1,6 +1,6 @@
 <?php
 
-include_once 'Conf/Configuracion.php';
+include_once '../Conf/Configuracion.php';
 include_once Configuracion;
 include_once Smarty_Include;
 include_once User;
@@ -19,5 +19,5 @@ if (isset($_POST['file_name'])){
 else{
     $_SESSION['error_message'] =  "Todos los campos son obligatorios";
 }
-header("Location:dashboard.php");
+ header("Location:../usuario/");
 ?>

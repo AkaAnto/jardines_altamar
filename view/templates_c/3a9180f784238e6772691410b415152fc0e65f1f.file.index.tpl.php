@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 12:48:00
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:31:18
          compiled from "..\view\templates\admin\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:602952d1374107e8d4-70945617%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -13,7 +13,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e05fe94494c7dcf56fa17b13ddd6b0b460b74352' => 
     array (
       0 => 'C:\\wamp\\www\\jardines_altamar\\view\\templates\\base_admin.tpl',
-      1 => 1389443968,
+      1 => 1389447073,
       2 => 'file',
     ),
     '064147bbb0ac607e38bce053ec6287f4ea0493bc' => 
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '063ba265dd006a1076f97025d89fd14e69f50165' => 
     array (
       0 => '..\\view\\templates\\admin\\slider_files.tpl',
-      1 => 1389444465,
+      1 => 1389447056,
       2 => 'file',
     ),
     'a2132159c2e1c576d283d066d42fb1cf00b3195f' => 
@@ -110,6 +110,8 @@ fancybox.js"></script>
 isotope.js"></script>
         <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
 bootstrap.js"></script>
+        <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
+jardin_altamar.js"></script>
         
         
 
@@ -133,7 +135,7 @@ switcher.js"></script>
                 <?php /*  Call merged included template "top_menu_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '602952d1374107e8d4-70945617');
-content_52d13d8106d089_90657197($_smarty_tpl);
+content_52d147a6a91092_07962766($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_admin.tpl" */?>
 
         
@@ -161,18 +163,34 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_ad
         <?php /*  Call merged included template "admin/content_jardines.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_jardines.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '602952d1374107e8d4-70945617');
-content_52d13d81518699_03336632($_smarty_tpl);
+content_52d147a6f349b5_06219334($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_jardines.tpl" */?>
 
 
 
-
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Confirmar eliminaciòn</h3>
+      </div>
+      <div class="modal-body">
+        <p>Esta seguro que desea eliminar el archivo ?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>
+        <button class="btn btn-danger" id="delete">Eliminar</button>
+        <form method="post" action="delete_slider_file.php" id="delete_form">
+            <input type="hidden" class="input-medium search-query" value="" id="file_name" name="file_name"/>
+            
+        </form>
+      </div>
+</div>
 
                 
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '602952d1374107e8d4-70945617');
-content_52d13d81a19bc4_67619165($_smarty_tpl);
+content_52d147a74bcfd5_12478727($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -183,7 +201,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '602952d1374107e8d4-70945617');
-content_52d13d81a9e8e3_47925174($_smarty_tpl);
+content_52d147a75499f4_90824952($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -278,9 +296,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 12:48:01
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:31:18
          compiled from "..\view\templates\top_menu_admin.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d13d8106d089_90657197')) {function content_52d13d8106d089_90657197($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52d147a6a91092_07962766')) {function content_52d147a6a91092_07962766($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -319,15 +337,15 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 12:48:01
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:31:18
          compiled from "..\view\templates\admin\content_jardines.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d13d81518699_03336632')) {function content_52d13d81518699_03336632($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d147a6f349b5_06219334')) {function content_52d147a6f349b5_06219334($_smarty_tpl) {?>
 <div class="row-fluid">
 
     <?php /*  Call merged included template "admin/slider_files.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("admin/slider_files.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '602952d1374107e8d4-70945617');
-content_52d13d81556ea3_15662849($_smarty_tpl);
+content_52d147a70290c1_81360287($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/slider_files.tpl" */?>
 </div>
 
@@ -452,9 +470,9 @@ portfolio/arreglo_1.jpg" alt=""/>
 
 
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 12:48:01
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:31:19
          compiled from "..\view\templates\admin\slider_files.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d13d81556ea3_15662849')) {function content_52d13d81556ea3_15662849($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
+<?php if ($_valid && !is_callable('content_52d147a70290c1_81360287')) {function content_52d147a70290c1_81360287($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
   <li class="active" ><a href="#slider_files" data-toggle="tab">Imágenes Slider</a></li>
   <li><a href="#add_file_to_slider" data-toggle="tab">Agregar nueva imagen</a></li>
 </ul>
@@ -495,9 +513,9 @@ $_smarty_tpl->tpl_vars['file']->_loop = true;
       </div>
   </div>
 </div>
- <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 12:48:01
+ <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:31:19
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d13d81a19bc4_67619165')) {function content_52d13d81a19bc4_67619165($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d147a74bcfd5_12478727')) {function content_52d147a74bcfd5_12478727($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -517,9 +535,9 @@ $_smarty_tpl->tpl_vars['file']->_loop = true;
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 12:48:01
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-11 13:31:19
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d13d81a9e8e3_47925174')) {function content_52d13d81a9e8e3_47925174($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d147a75499f4_90824952')) {function content_52d147a75499f4_90824952($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">

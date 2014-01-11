@@ -32,6 +32,7 @@
         <script src="{$js}fancybox.js"></script>
         <script src="{$js}isotope.js"></script>
         <script src="{$js}bootstrap.js"></script>
+        <script src="{$js}jardin_altamar.js"></script>
         
         
 
@@ -75,7 +76,23 @@
 
     {/block}
 
-
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Confirmar eliminaciòn</h3>
+      </div>
+      <div class="modal-body">
+        <p>Esta seguro que desea eliminar el archivo ?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>
+        <button class="btn btn-danger" id="delete">Eliminar</button>
+        <form method="post" action="delete_slider_file.php" id="delete_form">
+            <input type="hidden" class="input-medium search-query" value="" id="file_name" name="file_name"/>
+            
+        </form>
+      </div>
+</div>
 {block name="footer"}
                 
     {include file="footer.tpl"}
