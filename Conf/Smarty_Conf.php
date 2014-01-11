@@ -13,7 +13,7 @@ $smarty->assign("Jquery_Js",Jquery_Js);
 function smarty_function_slider_files($params, &$smarty)
 {   
     $smarty->assign('slider_files_list', User::slider_files_list());
-    $smarty->assign("slider_files_directoy",'../uploads/slider/');
+    $smarty->assign("slider_files_directoy",uploads.'slider/');
 }
 $smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');
 

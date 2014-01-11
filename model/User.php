@@ -85,6 +85,7 @@ class User extends Util_DataBase {
     }
     
     public static function slider_files_list(){
+
         $slider_files = Util_File::list_files_in_directory('slider/', uploads);
         return $slider_files;
     }

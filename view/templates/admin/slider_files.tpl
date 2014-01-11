@@ -8,8 +8,8 @@
       {slider_files }
       {foreach from=$slider_files_list item=file}              
                   {if $file != '.' && $file != '..' && $file != 'index.php'}            
-                      <p style="margin-left:10px; display:inline; float: left; width: 32%;"> 
-                          <img src="{$slider_files_directoy}/{$file}" class="img-polaroid" />
+                      <p style="margin-left:30px; display:inline; float: left; "> 
+                          <img src="{$slider_files_directoy}/{$file}" class="img-polaroid" style="width: 150px; height:100px;" />
                         Eliminar 
                         <a href="#myModal" role="button" id="{$slider_files_directoy}/{$file}" class="btn btn-small btn-danger delete_dialog" data-toggle="modal" >x</a>
                       </p>             

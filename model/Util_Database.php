@@ -1,7 +1,15 @@
 <?php
 
-include_once '../Conf/Configuracion.php';
-include_once Configuracion;
+
+if(!@include("../Conf/Configuracion.php")){
+
+}
+else{
+    include_once '../Conf/Configuracion.php';
+    include_once Configuracion;
+}
+
+
 
 abstract class Util_DataBase {
     

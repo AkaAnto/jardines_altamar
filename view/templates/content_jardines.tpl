@@ -4,9 +4,12 @@
     <section class="slider" >
         <div class="flexslider home">
             <ul class="slides">
-                <li><img src="{$img}portada/exterior_1_a_opt.jpg" alt="" /></li>
-                <li><img src="{$img}portada/interior_1_n_opt.jpg" alt="" /></li>
-                <li><img src="{$img}portada/interior_2_n_opt.jpg" alt="" /> </li>
+                {slider_files }
+                {foreach from=$slider_files_list item=file} 
+                     {if $file != '.' && $file != '..' && $file != 'index.php'}  
+                        <li><img src="{$slider_files_directoy}{$file}" alt="" /></li>
+                     {/if}
+                {/foreach}
                       
             </ul>
         </div>
