@@ -1,12 +1,12 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:11:51
-         compiled from "..\view\templates\admin\index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:20452d5875c6fd130-01864395%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:41:06
+         compiled from "..\view\templates\admin\jardines_products.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1523752d58f1a2b8af3-85254614%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    '3a9180f784238e6772691410b415152fc0e65f1f' => 
+    'a0ada7e997d85460d41fc23a25037ff467ad116f' => 
     array (
-      0 => '..\\view\\templates\\admin\\index.tpl',
+      0 => '..\\view\\templates\\admin\\jardines_products.tpl',
       1 => 1387333929,
       2 => 'file',
     ),
@@ -22,22 +22,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1389414481,
       2 => 'file',
     ),
-    '063ba265dd006a1076f97025d89fd14e69f50165' => 
+    '2821df77649a6e6803df297750b113c9d2b1eb36' => 
     array (
-      0 => '..\\view\\templates\\admin\\slider_files.tpl',
-      1 => 1389447056,
+      0 => '..\\view\\templates\\admin\\categories.tpl',
+      1 => 1389728457,
       2 => 'file',
     ),
-    '22a697925799c8e7311be5ec259f59796c33ad58' => 
+    '96a79ce987af9f8eb0c1e5947502cb7ff3a45036' => 
     array (
-      0 => '..\\view\\templates\\admin\\products_shortcuts.tpl',
-      1 => 1389726692,
-      2 => 'file',
-    ),
-    'a2132159c2e1c576d283d066d42fb1cf00b3195f' => 
-    array (
-      0 => '..\\view\\templates\\admin\\content_jardines.tpl',
-      1 => 1389455890,
+      0 => '..\\view\\templates\\admin\\content_products.tpl',
+      1 => 1389728126,
       2 => 'file',
     ),
     '1999ef54d929ec494d4354e63dec316211d50653' => 
@@ -53,12 +47,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '20452d5875c6fd130-01864395',
+  'nocache_hash' => '1523752d58f1a2b8af3-85254614',
   'function' => 
   array (
   ),
   'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52d5875d95eb56_59059079',
+  'unifunc' => 'content_52d58f1ade8210_85047824',
   'variables' => 
   array (
     'css' => 0,
@@ -68,7 +62,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52d5875d95eb56_59059079')) {function content_52d5875d95eb56_59059079($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_52d58f1ade8210_85047824')) {function content_52d58f1ade8210_85047824($_smarty_tpl) {?><!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
@@ -140,8 +134,8 @@ switcher.js"></script>
 
                 <?php /*  Call merged included template "top_menu_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '20452d5875c6fd130-01864395');
-content_52d58bf76954c2_36606371($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
+content_52d592d3012f27_15793699($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_admin.tpl" */?>
 
         
@@ -166,11 +160,11 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_ad
         <?php }?>
     
 
-        <?php /*  Call merged included template "admin/content_jardines.tpl" */
+        <?php /*  Call merged included template "admin/content_products.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_jardines.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '20452d5875c6fd130-01864395');
-content_52d58bf7af6751_79825692($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_jardines.tpl" */?>
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_products.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
+content_52d592d34c6232_18965753($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_products.tpl" */?>
 
 
 
@@ -195,8 +189,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/conte
                 
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '20452d5875c6fd130-01864395');
-content_52d58bf823c2d4_52677994($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
+content_52d592d367baa9_52400649($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -206,8 +200,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
 
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '20452d5875c6fd130-01864395');
-content_52d58bf82bd177_49282900($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
+content_52d592d37084c8_22024767($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -302,9 +296,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:11:51
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:41:07
          compiled from "..\view\templates\top_menu_admin.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d58bf76954c2_36606371')) {function content_52d58bf76954c2_36606371($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52d592d3012f27_15793699')) {function content_52d592d3012f27_15793699($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -343,61 +337,48 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:11:51
-         compiled from "..\view\templates\admin\content_jardines.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d58bf7af6751_79825692')) {function content_52d58bf7af6751_79825692($_smarty_tpl) {?>
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:41:07
+         compiled from "..\view\templates\admin\content_products.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_52d592d34c6232_18965753')) {function content_52d592d34c6232_18965753($_smarty_tpl) {?>
 <div class="row-fluid">
 
-    <?php /*  Call merged included template "admin/slider_files.tpl" */
+    <?php /*  Call merged included template "admin/categories.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("admin/slider_files.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '20452d5875c6fd130-01864395');
-content_52d58bf7b38de9_22681970($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/slider_files.tpl" */?>
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("admin/categories.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
+content_52d592d35088c1_14402485($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/categories.tpl" */?>
 </div>
 
 <hr>
-<div class="row-fluid">
-     <?php /*  Call merged included template "admin/products_shortcuts.tpl" */
-$_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("admin/products_shortcuts.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '20452d5875c6fd130-01864395');
-content_52d58bf7d4c265_53228104($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/products_shortcuts.tpl" */?>
-</div>
 
 
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:11:51
-         compiled from "..\view\templates\admin\slider_files.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d58bf7b38de9_22681970')) {function content_52d58bf7b38de9_22681970($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
-  <li class="active" ><a href="#slider_files" data-toggle="tab">Imágenes Slider</a></li>
-  <li><a href="#add_file_to_slider" data-toggle="tab">Agregar nueva imagen</a></li>
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:41:07
+         compiled from "..\view\templates\admin\categories.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_52d592d35088c1_14402485')) {function content_52d592d35088c1_14402485($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
+  <li class="active" ><a href="#edit_categories" data-toggle="tab">Editar Categorías</a></li>
+  <li><a href="#add_category" data-toggle="tab">Agregar nueva Categoría</a></li>
 </ul>
  
 <div class="tab-content">
-  <div class="tab-pane active" id="slider_files">
-      <?php echo smarty_function_slider_files(array(),$_smarty_tpl);?>
+  <div class="tab-pane active" id="edit_categories">
+      <?php echo smarty_function_products_categories(array(),$_smarty_tpl);?>
 
-      <?php  $_smarty_tpl->tpl_vars['file'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['file']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['slider_files_list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['file']->key => $_smarty_tpl->tpl_vars['file']->value){
-$_smarty_tpl->tpl_vars['file']->_loop = true;
-?>              
-                  <?php if ($_smarty_tpl->tpl_vars['file']->value!='.'&&$_smarty_tpl->tpl_vars['file']->value!='..'&&$_smarty_tpl->tpl_vars['file']->value!='index.php'){?>            
-                      <p style="margin-left:30px; display:inline; float: left; "> 
-                          <img src="<?php echo $_smarty_tpl->tpl_vars['slider_files_directoy']->value;?>
-/<?php echo $_smarty_tpl->tpl_vars['file']->value;?>
-" class="img-polaroid" style="width: 150px; height:100px;" />
-                        Eliminar 
-                        <a href="#myModal" role="button" id="<?php echo $_smarty_tpl->tpl_vars['slider_files_directoy']->value;?>
-/<?php echo $_smarty_tpl->tpl_vars['file']->value;?>
-" class="btn btn-small btn-danger delete_dialog" data-toggle="modal" >x</a>
-                      </p>             
-                      
-                   <?php }?>
+      <?php  $_smarty_tpl->tpl_vars['category'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['category']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['products_categories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['category']->key => $_smarty_tpl->tpl_vars['category']->value){
+$_smarty_tpl->tpl_vars['category']->_loop = true;
+?>  
+        
+          <input type="texto" class="input input-sm" name="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
+" value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
+"/> 
+       
+        
       <?php } ?>
   </div>
 
-  <div class="tab-pane " id="add_file_to_slider">
+  <div class="tab-pane " id="add_category">
       <div class="span3">
         <div class="featuresbox">
             <form action="../usuario/add_file_to_slider.php" method="POST" enctype="multipart/form-data"> 
@@ -409,63 +390,9 @@ $_smarty_tpl->tpl_vars['file']->_loop = true;
       </div>
   </div>
 </div>
- <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:11:51
-         compiled from "..\view\templates\admin\products_shortcuts.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d58bf7d4c265_53228104')) {function content_52d58bf7d4c265_53228104($_smarty_tpl) {?><form action="../usuario/edit_product_shortcut.php" method="POST" enctype="multipart/form-data"> 
-    <?php echo smarty_function_product_links(array(),$_smarty_tpl);?>
-
-      <?php  $_smarty_tpl->tpl_vars['product_link'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['product_link']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['product_links']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['product_link']->key => $_smarty_tpl->tpl_vars['product_link']->value){
-$_smarty_tpl->tpl_vars['product_link']->_loop = true;
-?>        
-    <div class="span3">
-            <div class="featuresbox">
-                <div><img src="<?php echo $_smarty_tpl->tpl_vars['category_directoy']->value;?>
-<?php echo $_smarty_tpl->tpl_vars['product_link']->value['foto'];?>
-" style="width:130px; height:100px">
-                    <input type='file' name='file_<?php echo $_smarty_tpl->tpl_vars['product_link']->value['id'];?>
-' class="btn-link" style="width:139px;">
-                </div>
-                Categoría:<select name="categoria_<?php echo $_smarty_tpl->tpl_vars['product_link']->value['id'];?>
-">
-                            <?php echo smarty_function_products_categories(array(),$_smarty_tpl);?>
-
-                            <?php  $_smarty_tpl->tpl_vars['category'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['category']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['products_categories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['category']->key => $_smarty_tpl->tpl_vars['category']->value){
-$_smarty_tpl->tpl_vars['category']->_loop = true;
-?>  
-                                
-                                <?php if ($_smarty_tpl->tpl_vars['product_link']->value['fk_categoria']==$_smarty_tpl->tpl_vars['category']->value['c_id']){?>
-                                    <option value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
-" selected="selected"> <?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
- </option>
-                                <?php }else{ ?>
-                                    <option value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
-"> <?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
- </option>
-                                <?php }?>
-                            <?php } ?>
-                        </select>
-                Descripción:<textarea id="texarea_span1" name="descripcion_<?php echo $_smarty_tpl->tpl_vars['product_link']->value['id'];?>
-" rows="5" cols="50"><?php echo $_smarty_tpl->tpl_vars['product_link']->value['Descripcion'];?>
-</textarea>
-                <input type="hidden" value="<?php echo $_smarty_tpl->tpl_vars['product_link']->value['foto'];?>
-" name="imagen_actual_<?php echo $_smarty_tpl->tpl_vars['product_link']->value['id'];?>
-"/>
-                
-            </div>
-    </div>
-    <?php } ?>    
-    <br/>
-    <br/>
-    <div align="center">
-        <input type="submit" class="btn btn-info" value="Editar"/>
-    </div>
-</form><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:11:52
+ <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:41:07
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d58bf823c2d4_52677994')) {function content_52d58bf823c2d4_52677994($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d592d367baa9_52400649')) {function content_52d592d367baa9_52400649($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -485,9 +412,9 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:11:52
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-14 19:41:07
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d58bf82bd177_49282900')) {function content_52d58bf82bd177_49282900($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d592d37084c8_22024767')) {function content_52d592d37084c8_22024767($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">

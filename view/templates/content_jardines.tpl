@@ -19,11 +19,14 @@
 
 <div class="row-fluid">
     {product_links }
-    {foreach from=$product_links item=product_link  name=product_links}        
+    {foreach from=$product_links item=product_link  name=product_links}  
+    {category_by_id category_id=$product_link.fk_categoria}      
     <div class="span3">
         <div class="featuresbox">
             <div><img src="{$category_directoy}{$product_link.foto}" style="width:130px; height:100px"></div>
-            <h4>{$product_link.categoria}</h4>
+            {foreach from=$category_name item=category  name=category_name}
+                <h4>{$category.c_nombre}</h4>
+             {/foreach}
             <p>{$product_link.Descripcion}</p>
             <button type="button" class="btn"><a href="jardines_products.php">Leer más</a></button>
         </div>

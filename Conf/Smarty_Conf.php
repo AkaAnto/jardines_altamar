@@ -19,6 +19,10 @@ function smarty_function_slider_files($params, &$smarty)
 
 function smarty_function_products_categories($params, &$smarty)
 {   
+    if (isset($params['category_id'])){
+
+         $smarty->assign('category_id',$params['category_id']);
+    }
     $smarty->assign('products_categories', User::products_categories());
    
 }
@@ -48,9 +52,26 @@ function smarty_function_about_us($params, &$smarty)
 }
 
 
+function smarty_function_category_products($params, &$smarty)
+{   
+    $category = $params['category_name'];
+    $smarty->assign('category_products', User::category_products($category));
+    $smarty->assign("products_directoy",uploads.'products/');
+}
+
+
+function smarty_function_category_by_id($params, &$smarty)
+{   
+    $category_id = $params['category_id'];
+    $smarty->assign('category_name', User::category_name($category_id));
+  
+}
+
 $smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');
 $smarty->registerPlugin("function",'products_categories', 'smarty_function_products_categories');
 $smarty->registerPlugin("function",'product_links', 'smarty_function_product_links');
 $smarty->registerPlugin("function",'recent_works', 'smarty_function_recent_works');
 $smarty->registerPlugin("function",'about_us_list', 'smarty_function_about_us');
+$smarty->registerPlugin("function",'category_products_list', 'smarty_function_category_products');
+$smarty->registerPlugin("function",'category_by_id', 'smarty_function_category_by_id');
 ?>

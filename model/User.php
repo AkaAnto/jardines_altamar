@@ -6,10 +6,13 @@ include_once 'Util_File.php';
 
 define ("login", "select * from user where username= % and password = % and is_active=1");
 define ("categories", "select * from categoria");
+define ("category_name", "select * from categoria where c_id=%");
 define ("product_links", "select * from link_productos");
 define ("about_us", "select * from nosotros");
+define ("products", "select * from producto");
+define ("category_products", "select * from producto where fk_categoria=%");
 define ("recent_works", "select * from trabajo ORDER BY id DESC LIMIT 4");
-define ("edit_product_links","Update link_productos set categoria='%', Descripcion='%', foto='%' where id=% ");
+define ("edit_product_links","Update link_productos set fk_categoria=%, Descripcion='%', foto='%' where id=% ");
 define ("edit_about_us","Update nosotros set n_empresa='%', n_mision='%', n_vision='%'");
 define ("change_user_password","Update user set password='%' where username='%'");
 define ("change_user_email","Update user set email='%' where username='%'");
@@ -123,7 +126,19 @@ class User extends Util_DataBase {
         $recent_works = User::execute_select(recent_works);
         return $recent_works;
     }
+    public static function  products(){
+        $products = User::execute_select( products);
+        return $products;
+    }
     
+    public static function category_products($category){
+        $values = array();
+        $values[0] =$category;
+        $query = Util_String::concatenate(category_products, $values);
+        $category_products = User::execute_select(category_products);
+        return $category_products;
+    }
+
      public static function about_us(){
         $about_us = User::execute_select(about_us);
         return $about_us;
@@ -140,6 +155,14 @@ class User extends Util_DataBase {
             return true;
         }
         return false;
+    }
+
+     public static function category_name($category_id){
+        $values = array();
+        $values[0] =$category_id;
+        $query = Util_String::concatenate(category_name, $values);
+        $category = User::execute_select($query);
+        return $category;
     }
 }
 

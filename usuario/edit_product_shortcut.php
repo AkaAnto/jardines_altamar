@@ -9,7 +9,7 @@ session_start();
 
 $directory = 'category';
 $target_path = '../uploads/'.$directory.'/';
-for ($i=1; $i<4; $i++){
+for ($i=1; $i<5; $i++){
 
 	$categoria = $_POST["categoria_$i"];
     $descripcion = $_POST["descripcion_$i"];
