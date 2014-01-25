@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:05:09
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:18:09
          compiled from "..\view\templates\admin\jardines_gallery.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1033152d8aa7566f8f6-38544520%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -22,10 +22,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1390651242,
       2 => 'file',
     ),
+    'a4affdba82c7efc55dd17bcaf6a60f54583185b7' => 
+    array (
+      0 => '..\\view\\templates\\admin\\works.tpl',
+      1 => 1390663087,
+      2 => 'file',
+    ),
     'f0ec42122ba6eb20b5472cb899083b201ce4b3b0' => 
     array (
       0 => '..\\view\\templates\\admin\\content_gallery.tpl',
-      1 => 1387333929,
+      1 => 1390662164,
       2 => 'file',
     ),
     '1999ef54d929ec494d4354e63dec316211d50653' => 
@@ -129,7 +135,7 @@ switcher.js"></script>
                 <?php /*  Call merged included template "top_menu_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
-content_52e3c495e61667_83503225($_smarty_tpl);
+content_52e3d5b19eebf7_95241156($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_admin.tpl" */?>
 
         
@@ -157,7 +163,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_ad
         <?php /*  Call merged included template "admin/content_gallery.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_gallery.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
-content_52e3c496174d69_83477682($_smarty_tpl);
+content_52e3d5b1cf43a2_66988368($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_gallery.tpl" */?>
 
 
@@ -184,7 +190,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/conte
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
-content_52e3c4961e6203_34604655($_smarty_tpl);
+content_52e3d5b224dbb2_39611167($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -195,7 +201,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
-content_52e3c496228893_54211371($_smarty_tpl);
+content_52e3d5b229bdc9_30154755($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -290,9 +296,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:05:09
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:18:09
          compiled from "..\view\templates\top_menu_admin.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c495e61667_83503225')) {function content_52e3c495e61667_83503225($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52e3d5b19eebf7_95241156')) {function content_52e3d5b19eebf7_95241156($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -333,75 +339,130 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:05:10
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:18:09
          compiled from "..\view\templates\admin\content_gallery.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c496174d69_83477682')) {function content_52e3c496174d69_83477682($_smarty_tpl) {?><div class="row-fluid">
-    <div id="page-title">
-        
-        <h2>Editar Galería</h2>
-               
-    </div>
-                <div class="three-tables">
+<?php if ($_valid && !is_callable('content_52e3d5b1cf43a2_66988368')) {function content_52e3d5b1cf43a2_66988368($_smarty_tpl) {?>
+<div class="row-fluid">
 
-                    <div class="pricing-table span4">
-                        <div class="color-1">
-                            <h3>Jardinería
-                            <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Editar</button>
-                            
-                            </h3>
-                            
-                            <ul>
-                                <li><button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Agregar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                            </ul>
-                           
-                        </div>
-                    </div>
+    <?php /*  Call merged included template "admin/works.tpl" */
+$_tpl_stack[] = $_smarty_tpl;
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("admin/works.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
+content_52e3d5b1d3e731_94676660($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/works.tpl" */?>
+</div>
 
-                    <div class="pricing-table span4">
-                        <div class="color-1 ">
-                            <h3>Flores <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Editar</button></h3>
-                            
-                           
-                            <ul>
-                                <li><button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Agregar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-
-                    <div class="pricing-table span4">
-                        <div class="color-1 ">
-                            <h3>Exteriores <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Editar</button></h3>
-                            
-                           
-                            <ul>
-                                <li><button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Agregar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
-                            </ul>
-                           
-                        </div>
-                    </div>
+<hr>
 
 
-                </div>
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:18:09
+         compiled from "..\view\templates\admin\works.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_52e3d5b1d3e731_94676660')) {function content_52e3d5b1d3e731_94676660($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
+  <li class="active" ><a href="#edit_works" data-toggle="tab">Editar Trabajos</a></li>
+  <li><a href="#add_work" data-toggle="tab">Agregar nuevo Trabajo</a></li>
 
-            </div><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:05:10
+</ul>
+ 
+<div class="tab-content">
+  <div class="tab-pane active" id="edit_works">
+      <form action="../usuario/edit_work.php" method="POST" enctype="multipart/form-data"> 
+      <?php echo smarty_function_all_works(array(),$_smarty_tpl);?>
+
+      <?php  $_smarty_tpl->tpl_vars['work'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['work']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['works']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['work']->key => $_smarty_tpl->tpl_vars['work']->value){
+$_smarty_tpl->tpl_vars['work']->_loop = true;
+?>        
+      <div class="span3">
+              <div class="featuresbox">
+                  <div><img src="<?php echo $_smarty_tpl->tpl_vars['works_directoy']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['work']->value['foto'];?>
+" style="width:130px; height:100px">
+                      <input type='file' name='file_<?php echo $_smarty_tpl->tpl_vars['work']->value['id'];?>
+' class="btn-link" style="width:139px;">
+                  </div>
+                  Categoría:<select name="categoria_<?php echo $_smarty_tpl->tpl_vars['work']->value['id'];?>
+">
+                              <?php echo smarty_function_products_categories(array(),$_smarty_tpl);?>
+
+                              <?php  $_smarty_tpl->tpl_vars['category'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['category']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['products_categories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['category']->key => $_smarty_tpl->tpl_vars['category']->value){
+$_smarty_tpl->tpl_vars['category']->_loop = true;
+?>  
+                                  
+                                  <?php if ($_smarty_tpl->tpl_vars['work']->value['categoria_fk']==$_smarty_tpl->tpl_vars['category']->value['c_id']){?>
+                                      <option value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
+" selected="selected"> <?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
+ </option>
+                                  <?php }else{ ?>
+                                      <option value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
+"> <?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
+ </option>
+                                  <?php }?>
+                              <?php } ?>
+                          </select>
+                  Nombre:<input type="text" class="span12 " name="nombre_<?php echo $_smarty_tpl->tpl_vars['work']->value['id'];?>
+" value="<?php echo $_smarty_tpl->tpl_vars['work']->value['nombre'];?>
+" /> 
+                  Descripción:<textarea id="texarea_span1" name="descripcion_<?php echo $_smarty_tpl->tpl_vars['work']->value['id'];?>
+" rows="5" cols="50"><?php echo $_smarty_tpl->tpl_vars['work']->value['descripcion'];?>
+</textarea>
+                  <input type="hidden" value="<?php echo $_smarty_tpl->tpl_vars['work']->value['foto'];?>
+" name="imagen_actual_<?php echo $_smarty_tpl->tpl_vars['work']->value['id'];?>
+"/>
+                  
+              </div>
+      </div>
+      <?php } ?>    
+          <br/>
+          <br/>
+          <div align="center">
+              <input type="submit" class="btn btn-info" value="Editar"/>
+          </div>
+      </form>
+  </div>
+
+  <div class="tab-pane " id="add_work">
+      <div class="span12">
+        <form action="../usuario/add_work.php" method="POST" enctype="multipart/form-data">       
+        <div class="span3">
+              <div class="featuresbox">
+                  <div><img src="<?php echo $_smarty_tpl->tpl_vars['works_directoy']->value;?>
+no_disponible.png" style="width:130px; height:100px">
+                      <input type='file' name='file' class="btn-link" style="width:139px;">
+                  </div>
+                  Categoría:<select name="categoria">
+                              <?php echo smarty_function_products_categories(array(),$_smarty_tpl);?>
+
+                              <?php  $_smarty_tpl->tpl_vars['category'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['category']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['products_categories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['category']->key => $_smarty_tpl->tpl_vars['category']->value){
+$_smarty_tpl->tpl_vars['category']->_loop = true;
+?>  
+                                      <option value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
+"> <?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
+ </option>
+                              <?php } ?>
+                          </select>
+                  Nombre:<input type="text" class="span12 " name="nombre" value="" placeholder="Nombre" /> 
+                  Descripción:<textarea id="texarea_span1" name="descripcion" rows="5" cols="50" placheholder="Descripción"> Descripcion</textarea>
+              </div>
+              <br/>
+          <br/>
+          <div align="center">
+              <input type="submit" class="btn btn-info" value="Agregar producto"/>
+          </div>
+        </div>
+     
+          
+        </form>
+      </div>
+  </div>
+  
+</div>
+ <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:18:10
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c4961e6203_34604655')) {function content_52e3c4961e6203_34604655($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3d5b224dbb2_39611167')) {function content_52e3d5b224dbb2_39611167($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -421,9 +482,9 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:05:10
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:18:10
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c496228893_54211371')) {function content_52e3c496228893_54211371($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3d5b229bdc9_30154755')) {function content_52e3d5b229bdc9_30154755($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">

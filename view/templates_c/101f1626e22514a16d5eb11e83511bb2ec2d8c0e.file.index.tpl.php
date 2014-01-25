@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:58:07
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:28
          compiled from "view\templates\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:93252d723a7aed205-44148450%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -37,13 +37,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'abaa0c9ef9ab3c0865d3c824fe63b3bdf32d0ce2' => 
     array (
       0 => 'view\\templates\\footer.tpl',
-      1 => 1380507693,
+      1 => 1390663144,
       2 => 'file',
     ),
     '998e1d1b2adc30f12ff69bdbc7f84171666685e9' => 
     array (
       0 => 'view\\templates\\last_footer.tpl',
-      1 => 1380507356,
+      1 => 1390663216,
       2 => 'file',
     ),
   ),
@@ -133,7 +133,7 @@ switcher.js"></script>
                 <?php /*  Call merged included template "top_menu.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '93252d723a7aed205-44148450');
-content_52d89c3f513907_53373640($_smarty_tpl);
+content_52e3d63c5c4158_35918429($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tpl" */?>
 
         
@@ -160,7 +160,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tp
         <?php /*  Call merged included template "content_jardines.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('content_jardines.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '93252d723a7aed205-44148450');
-content_52d89c3f7a3da9_48154801($_smarty_tpl);
+content_52e3d63c8063e1_25074031($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "content_jardines.tpl" */?>
 
 
@@ -171,7 +171,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "content_jar
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '93252d723a7aed205-44148450');
-content_52d89c3fab8f57_33640849($_smarty_tpl);
+content_52e3d63cae0c13_32183362($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -182,7 +182,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '93252d723a7aed205-44148450');
-content_52d89c3faff468_53400553($_smarty_tpl);
+content_52e3d63cb1b592_37313688($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -277,9 +277,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:58:07
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:28
          compiled from "view\templates\top_menu.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89c3f513907_53373640')) {function content_52d89c3f513907_53373640($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52e3d63c5c4158_35918429')) {function content_52e3d63c5c4158_35918429($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -318,9 +318,9 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:58:07
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:28
          compiled from "view\templates\content_jardines.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89c3f7a3da9_48154801')) {function content_52d89c3f7a3da9_48154801($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3d63c8063e1_25074031')) {function content_52e3d63c8063e1_25074031($_smarty_tpl) {?>
 <div class="row-fluid">
 
     <section class="slider" >
@@ -385,16 +385,16 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
         <?php /*  Call merged included template "recent_work.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("recent_work.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '93252d723a7aed205-44148450');
-content_52d89c3f997e10_72761960($_smarty_tpl);
+content_52e3d63c9bbc42_78810940($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "recent_work.tpl" */?>    
 
     </div>
 </div>
 
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:58:07
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:28
          compiled from "view\templates\recent_work.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89c3f997e10_72761960')) {function content_52d89c3f997e10_72761960($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3d63c9bbc42_78810940')) {function content_52e3d63c9bbc42_78810940($_smarty_tpl) {?>
 <?php echo smarty_function_recent_works(array(),$_smarty_tpl);?>
 
 <?php  $_smarty_tpl->tpl_vars['work'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['work']->_loop = false;
@@ -422,9 +422,9 @@ $_smarty_tpl->tpl_vars['work']->_loop = true;
     </div>
 </div>
 <?php } ?>    
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:58:07
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:28
          compiled from "view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89c3fab8f57_33640849')) {function content_52d89c3fab8f57_33640849($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3d63cae0c13_32183362')) {function content_52e3d63cae0c13_32183362($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -432,7 +432,7 @@ $_smarty_tpl->tpl_vars['work']->_loop = true;
             <p>Recibe nuestras promociones</p><p>Escribe tu E-mail aquí</p>
             <div class="input-append">
                 <input  id="appendedInputButton"  type="text" class="span7" placeholder="abc@ejemplo.com">
-                <button class="btn" type="button">Subscribe!</button>
+                <button class="btn" type="button">Subscribete!</button>
             </div>
 
         </div>
@@ -444,14 +444,14 @@ $_smarty_tpl->tpl_vars['work']->_loop = true;
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:58:07
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:28
          compiled from "view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89c3faff468_53400553')) {function content_52d89c3faff468_53400553($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3d63cb1b592_37313688')) {function content_52e3d63cb1b592_37313688($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">
             <div id="footer-bottom">
-                © Copyright 2013 by <a href="#">Jardines Altamar</a>. Todos los derechos reservados.
+               <p align="center">Jardín Altamar  © Copyright 2014 . Todos los derechos reservados. </p>
 
                 <div id="scroll-top-top">
                     <a href="" title="Subir"></a>

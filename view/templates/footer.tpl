@@ -6,7 +6,7 @@
             <p>Recibe nuestras promociones</p><p>Escribe tu E-mail aquí</p>
             <div class="input-append">
                 <input  id="appendedInputButton"  type="text" class="span7" placeholder="abc@ejemplo.com">
-                <button class="btn" type="button">Subscribe!</button>
+                <button class="btn" type="button">Subscribete!</button>
             </div>
 
         </div>

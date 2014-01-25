@@ -15,6 +15,7 @@ define ("products", "select * from producto");
 define ("category_products", "select * from producto where fk_categoria=%");
 define ("recent_works", "select * from trabajo  ORDER BY id DESC LIMIT 4");
 define ("works", "select * from trabajo where categoria_fk=% ORDER BY id DESC");
+define ("all_works", "select * from trabajo");
 define ("edit_product_links","Update link_productos set fk_categoria=%, Descripcion='%', foto='%' where id=% ");
 define ("edit_products","Update producto set fk_categoria=%, Descripcion='%', foto='%', nombre='%' where id=% ");
 define ("add_product","Insert into  producto (id, nombre, fk_categoria, Descripcion, foto) values (NULL, '%', %, '%','%' ) ");
@@ -159,11 +160,15 @@ class User extends Util_DataBase {
         $recent_works = User::execute_select(recent_works);
         return $recent_works;
     }
-     public static function works($category){
+    public static function works($category){
         $values = array();
         $values[0] =$category;
         $query = Util_String::concatenate(works, $values);
         $works = User::execute_select($query);
+        return $works;
+    }
+    public static function all_works(){
+        $works = User::execute_select(all_works);
         return $works;
     }
     public static function  products(){

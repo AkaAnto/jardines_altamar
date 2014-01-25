@@ -17,7 +17,6 @@
 
 </div>
 
-
 <div id="portfolio-wrapper">
 			
 	{foreach from=$products_categories item=category}

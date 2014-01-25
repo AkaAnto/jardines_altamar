@@ -3,7 +3,7 @@
     <div class="row-fluid">
         <div class="span12">
             <div id="footer-bottom">
-                © Copyright 2013 by <a href="#">Jardines Altamar</a>. Todos los derechos reservados.
+               <p align="center">Jardín Altamar  © Copyright 2014 . Todos los derechos reservados. </p>
 
                 <div id="scroll-top-top">
                     <a href="" title="Subir"></a>

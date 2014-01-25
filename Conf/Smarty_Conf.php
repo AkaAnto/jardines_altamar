@@ -57,6 +57,12 @@ function smarty_function_works($params, &$smarty)
 }
 
 
+function smarty_function_all_works($params, &$smarty)
+{   
+    $smarty->assign('works', User::all_works());
+    $smarty->assign("works_directoy",uploads.'works/');
+}
+
 
 
 
@@ -85,6 +91,8 @@ $smarty->registerPlugin("function",'products_categories', 'smarty_function_produ
 $smarty->registerPlugin("function",'product_links', 'smarty_function_product_links');
 $smarty->registerPlugin("function",'products', 'smarty_function_products');
 $smarty->registerPlugin("function",'recent_works', 'smarty_function_recent_works');
+$smarty->registerPlugin("function",'works', 'smarty_function_works');
+$smarty->registerPlugin("function",'all_works', 'smarty_function_all_works');
 $smarty->registerPlugin("function",'about_us_list', 'smarty_function_about_us');
 $smarty->registerPlugin("function",'category_products_list', 'smarty_function_category_products');
 $smarty->registerPlugin("function",'category_by_id', 'smarty_function_category_by_id');
