@@ -17,16 +17,14 @@
                 {foreach from=$products_categories item=category}  
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_{$category.c_nombre}">
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_{$category.c_id}">
                                 {$category.c_nombre}
                             </a>
                         </div>
-                        <div id="collapse_{$category.c_nombre}" class="accordion-body collapse" style="height: 0px; ">
+                        <div id="collapse_{$category.c_id}" class="accordion-body collapse" style="height: 0px; ">
                             <div class="accordion-inner" style="max-height: 320px; overflow-y:scroll;">
-                                {category_products_list category_name=$category.c_nombre }
+                                {category_products_list category_name=$category.c_id }
                                 {foreach from=$category_products item=product  name=products}     
-
-                                ududud   
                                 <div class="span3">
                                     <div class="picture">
                                         <a href="{$products_directoy}{$product.foto}" rel="image" title="{$product.nombre}">

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:59:46
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:14:47
          compiled from "..\view\templates\jardines_products.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2976252d89ca28ee955-35452242%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bb42ddf53e2636927b68fa71c117c6c48c8dc6cf' => 
     array (
       0 => '..\\view\\templates\\content_products.tpl',
-      1 => 1389468934,
+      1 => 1390659284,
       2 => 'file',
     ),
     '1999ef54d929ec494d4354e63dec316211d50653' => 
@@ -45,6 +45,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_52d89ca30a97f2_25222897',
   'variables' => 
   array (
     'css' => 0,
@@ -53,8 +55,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'info_message' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52d89ca30a97f2_25222897',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_52d89ca30a97f2_25222897')) {function content_52d89ca30a97f2_25222897($_smarty_tpl) {?><!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
@@ -127,7 +127,7 @@ switcher.js"></script>
                 <?php /*  Call merged included template "top_menu.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2976252d89ca28ee955-35452242');
-content_52d89ca2b53e64_18450792($_smarty_tpl);
+content_52e3c6d7baa473_37407906($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tpl" */?>
 
         
@@ -154,7 +154,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tp
         <?php /*  Call merged included template "content_products.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('content_products.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2976252d89ca28ee955-35452242');
-content_52d89ca2dc1079_93982505($_smarty_tpl);
+content_52e3c6d7dfc104_71610919($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "content_products.tpl" */?>
 
 
@@ -165,7 +165,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "content_pro
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2976252d89ca28ee955-35452242');
-content_52d89ca3030662_44848401($_smarty_tpl);
+content_52e3c6d8050160_87550649($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -176,7 +176,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2976252d89ca28ee955-35452242');
-content_52d89ca307e875_59625437($_smarty_tpl);
+content_52e3c6d80927f4_52776085($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -271,9 +271,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:59:46
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:14:47
          compiled from "..\view\templates\top_menu.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89ca2b53e64_18450792')) {function content_52d89ca2b53e64_18450792($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52e3c6d7baa473_37407906')) {function content_52e3c6d7baa473_37407906($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -312,9 +312,9 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:59:46
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:14:47
          compiled from "..\view\templates\content_products.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89ca2dc1079_93982505')) {function content_52d89ca2dc1079_93982505($_smarty_tpl) {?><div class="row-fluid">
+<?php if ($_valid && !is_callable('content_52e3c6d7dfc104_71610919')) {function content_52e3c6d7dfc104_71610919($_smarty_tpl) {?><div class="row-fluid">
 
   <!-- Page Title -->
   <div id="page-title">
@@ -338,24 +338,22 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
 ?>  
                     <div class="accordion-group">
                         <div class="accordion-heading">
-                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_<?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
+                            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
 ">
                                 <?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
 
                             </a>
                         </div>
-                        <div id="collapse_<?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
+                        <div id="collapse_<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
 " class="accordion-body collapse" style="height: 0px; ">
                             <div class="accordion-inner" style="max-height: 320px; overflow-y:scroll;">
-                                <?php echo smarty_function_category_products(array('category_name'=>$_smarty_tpl->tpl_vars['category']->value['c_nombre']),$_smarty_tpl);?>
+                                <?php echo smarty_function_category_products(array('category_name'=>$_smarty_tpl->tpl_vars['category']->value['c_id']),$_smarty_tpl);?>
 
                                 <?php  $_smarty_tpl->tpl_vars['product'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['product']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['category_products']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['product']->key => $_smarty_tpl->tpl_vars['product']->value){
 $_smarty_tpl->tpl_vars['product']->_loop = true;
 ?>     
-
-                                ududud   
                                 <div class="span3">
                                     <div class="picture">
                                         <a href="<?php echo $_smarty_tpl->tpl_vars['products_directoy']->value;?>
@@ -383,9 +381,9 @@ $_smarty_tpl->tpl_vars['product']->_loop = true;
             </div>
         </div>
     </div>
-</div><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:59:47
+</div><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:14:48
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89ca3030662_44848401')) {function content_52d89ca3030662_44848401($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3c6d8050160_87550649')) {function content_52e3c6d8050160_87550649($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -405,9 +403,9 @@ $_smarty_tpl->tpl_vars['product']->_loop = true;
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 02:59:47
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 14:14:48
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52d89ca307e875_59625437')) {function content_52d89ca307e875_59625437($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3c6d80927f4_52776085')) {function content_52e3c6d80927f4_52776085($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">

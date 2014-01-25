@@ -168,7 +168,7 @@ class User extends Util_DataBase {
         $values = array();
         $values[0] =$category;
         $query = Util_String::concatenate(category_products, $values);
-        $category_products = User::execute_select(category_products);
+        $category_products = User::execute_select($query);
         return $category_products;
     }
 
