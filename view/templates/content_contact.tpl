@@ -20,18 +20,16 @@
                     <p>Si necesita alguna información o se quiere comunicar con nosotros, por favor ingrese la información que se solicita en el siguiente formulario y con gusto atenderemos su petición con la mayor prontitud.</p>
 
                     <div id="contact-form" >
-                        <form>
+                        <form action="send_mail.php" method="POST">
                             <fieldset>
-                                <label>Nombre</label>
-                                <input type="text" class="input-xlarge">
+                                <label>Nombre Completo</label>
+                                <input type="text" class="input-xlarge" name="nombre">
 
                                 <label>Email</label>
-                                <input type="text" class="input-xlarge">
+                                <input type="text" class="input-xlarge" name="mail">
 
                                 <label>Mensaje</label>
-                                <textarea rows="6" class="input-xxlarge"></textarea>
-
-
+                                <textarea rows="6" class="input-xxlarge" name="mensaje"></textarea>
 
                             </fieldset>
                             <button type="submit" class="btn btn-inverse">Enviar</button>
