@@ -43,13 +43,30 @@
 
   <div class="tab-pane " id="add_products">
       <div class="span12">
-        <div class="featuresbox">
-            <form action="../usuario/add_file_to_slider.php" method="POST" enctype="multipart/form-data"> 
-                  <input type="text" class="span6 " name="category_name" value="" placeholder="Nueva Categoría"/> 
-          <br>
-                  <button type="submit" class="btn  btn-info">Agregar Categoría</button>               
-              </form>
+        <form action="../usuario/add_product.php" method="POST" enctype="multipart/form-data">       
+        <div class="span3">
+              <div class="featuresbox">
+                  <div><img src="{$product_directoy}no_disponible.png" style="width:130px; height:100px">
+                      <input type='file' name='file' class="btn-link" style="width:139px;">
+                  </div>
+                  Categoría:<select name="categoria">
+                              {products_categories}
+                              {foreach from=$products_categories item=category}  
+                                      <option value="{$category.c_id}"> {$category.c_nombre} </option>
+                              {/foreach}
+                          </select>
+                  Nombre:<input type="text" class="span12 " name="nombre" value="" placeholder="Nombre" /> 
+                  Descripción:<textarea id="texarea_span1" name="descripcion" rows="5" cols="50" placheholder="Descripción"> Descripcion</textarea>
+              </div>
+              <br/>
+          <br/>
+          <div align="center">
+              <input type="submit" class="btn btn-info" value="Agregar producto"/>
+          </div>
         </div>
+     
+          
+        </form>
       </div>
   </div>
   <div class="tab-pane" id="edit_categories">

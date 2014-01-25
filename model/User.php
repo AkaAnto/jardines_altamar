@@ -16,6 +16,7 @@ define ("category_products", "select * from producto where fk_categoria=%");
 define ("recent_works", "select * from trabajo ORDER BY id DESC LIMIT 4");
 define ("edit_product_links","Update link_productos set fk_categoria=%, Descripcion='%', foto='%' where id=% ");
 define ("edit_products","Update producto set fk_categoria=%, Descripcion='%', foto='%', nombre='%' where id=% ");
+define ("add_product","Insert into  producto (id, nombre, fk_categoria, Descripcion, foto) values (NULL, '%', %, '%','%' ) ");
 define ("edit_about_us","Update nosotros set n_empresa='%', n_mision='%', n_vision='%'");
 define ("change_user_password","Update user set password='%' where username='%'");
 define ("change_user_email","Update user set email='%' where username='%'");
@@ -133,6 +134,20 @@ class User extends Util_DataBase {
         $values[3] =$nombre;
         $values[4] =$id;
         $query = Util_String::concatenate(edit_products, $values);
+        $product = User::execute_query($query);
+        if ($product != false){
+            return true;
+        }
+        return false;
+    }
+
+     public static function add_product($categoria,$descripcion,$foto, $nombre){
+        $values = array();
+        $values[1] =$categoria;
+        $values[2] =$descripcion;
+        $values[3] =$foto;
+        $values[0] =$nombre;
+        $query = Util_String::concatenate(add_product, $values);
         echo $query;
         $product = User::execute_query($query);
         if ($product != false){
