@@ -7,15 +7,38 @@
  
 <div class="tab-content">
   <div class="tab-pane active" id="edit_products">
-    <form method="POST" action="../usuario/edit_category.php">
-      <br/>
-      {products_categories}
-      {foreach from=$products_categories item=category}  
-          <input type="text" class="span3 " name="{$category.c_id}" value="{$category.c_nombre}"/> 
-      {/foreach}
-      <br/>
-      <div align="center"> <input type="submit" class="btn btn-info" value="Editar"> </div>
-    </form>
+      <form action="../usuario/edit_product.php" method="POST" enctype="multipart/form-data"> 
+      {products}
+      {foreach from=$products item=product  name=products}        
+      <div class="span3">
+              <div class="featuresbox">
+                  <div><img src="{$product_directoy}{$product.foto}" style="width:130px; height:100px">
+                      <input type='file' name='file_{$product.id}' class="btn-link" style="width:139px;">
+                  </div>
+                  Categoría:<select name="categoria_{$product.id}">
+                              {products_categories}
+                              {foreach from=$products_categories item=category}  
+                                  
+                                  {if $product.fk_categoria == $category.c_id}
+                                      <option value="{$category.c_id}" selected="selected"> {$category.c_nombre} </option>
+                                  {else}
+                                      <option value="{$category.c_id}"> {$category.c_nombre} </option>
+                                  {/if}
+                              {/foreach}
+                          </select>
+                  Nombre:<input type="text" class="span12 " name="nombre_{$product.id}" value="{$product.nombre}" /> 
+                  Descripción:<textarea id="texarea_span1" name="descripcion_{$product.id}" rows="5" cols="50">{$product.Descripcion}</textarea>
+                  <input type="hidden" value="{$product.foto}" name="imagen_actual_{$product.id}"/>
+                  
+              </div>
+      </div>
+      {/foreach}    
+          <br/>
+          <br/>
+          <div align="center">
+              <input type="submit" class="btn btn-info" value="Editar"/>
+          </div>
+      </form>
   </div>
 
   <div class="tab-pane " id="add_products">

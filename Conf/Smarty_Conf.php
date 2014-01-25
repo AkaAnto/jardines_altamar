@@ -31,8 +31,13 @@ function smarty_function_products_categories($params, &$smarty)
 function smarty_function_product_links($params, &$smarty)
 {   
     $smarty->assign('product_links', User::product_links());
-     $smarty->assign("category_directoy",uploads.'category/');
-   
+    $smarty->assign("category_directoy",uploads.'category/');
+}
+
+function smarty_function_products($params, &$smarty)
+{   
+    $smarty->assign('products', User::products());
+    $smarty->assign("product_directoy",uploads.'products/');
 }
 
 
@@ -66,6 +71,7 @@ function smarty_function_category_by_id($params, &$smarty)
 $smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');
 $smarty->registerPlugin("function",'products_categories', 'smarty_function_products_categories');
 $smarty->registerPlugin("function",'product_links', 'smarty_function_product_links');
+$smarty->registerPlugin("function",'products', 'smarty_function_products');
 $smarty->registerPlugin("function",'recent_works', 'smarty_function_recent_works');
 $smarty->registerPlugin("function",'about_us_list', 'smarty_function_about_us');
 $smarty->registerPlugin("function",'category_products_list', 'smarty_function_category_products');
