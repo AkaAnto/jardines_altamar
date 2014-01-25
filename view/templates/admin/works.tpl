@@ -60,7 +60,7 @@
               <br/>
           <br/>
           <div align="center">
-              <input type="submit" class="btn btn-info" value="Agregar producto"/>
+              <input type="submit" class="btn btn-info" value="Agregar trabajo"/>
           </div>
         </div>
      

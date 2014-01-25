@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 13:56:55
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:44:01
          compiled from "..\view\templates\admin\jardines_products.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1523752d58f1a2b8af3-85254614%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -37,13 +37,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1999ef54d929ec494d4354e63dec316211d50653' => 
     array (
       0 => '..\\view\\templates\\footer.tpl',
-      1 => 1380507693,
+      1 => 1390663144,
       2 => 'file',
     ),
     'f232d89c44199399373f7d6140613e291040785a' => 
     array (
       0 => '..\\view\\templates\\last_footer.tpl',
-      1 => 1380507356,
+      1 => 1390663216,
       2 => 'file',
     ),
   ),
@@ -135,7 +135,7 @@ switcher.js"></script>
                 <?php /*  Call merged included template "top_menu_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3c2a7452098_66398735($_smarty_tpl);
+content_52e3dbc15c7487_66812775($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_admin.tpl" */?>
 
         
@@ -163,7 +163,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_ad
         <?php /*  Call merged included template "admin/content_products.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_products.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3c2a76e2529_14596905($_smarty_tpl);
+content_52e3dbc1830826_91844390($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_products.tpl" */?>
 
 
@@ -190,7 +190,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/conte
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3c2a7a59176_77946626($_smarty_tpl);
+content_52e3dbc1bed987_58194412($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -201,7 +201,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3c2a7a9b807_35762691($_smarty_tpl);
+content_52e3dbc1c47715_07006609($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -296,9 +296,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 13:56:55
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:44:01
          compiled from "..\view\templates\top_menu_admin.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c2a7452098_66398735')) {function content_52e3c2a7452098_66398735($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52e3dbc15c7487_66812775')) {function content_52e3dbc15c7487_66812775($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -339,15 +339,15 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 13:56:55
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:44:01
          compiled from "..\view\templates\admin\content_products.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c2a76e2529_14596905')) {function content_52e3c2a76e2529_14596905($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3dbc1830826_91844390')) {function content_52e3dbc1830826_91844390($_smarty_tpl) {?>
 <div class="row-fluid">
 
     <?php /*  Call merged included template "admin/products.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("admin/products.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3c2a76fdab1_77182041($_smarty_tpl);
+content_52e3dbc1847f29_27041238($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/products.tpl" */?>
 </div>
 
@@ -355,9 +355,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/produ
 
 
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 13:56:55
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:44:01
          compiled from "..\view\templates\admin\products.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c2a76fdab1_77182041')) {function content_52e3c2a76fdab1_77182041($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
+<?php if ($_valid && !is_callable('content_52e3dbc1847f29_27041238')) {function content_52e3dbc1847f29_27041238($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
   <li class="active" ><a href="#edit_products" data-toggle="tab">Editar Productos</a></li>
   <li><a href="#add_products" data-toggle="tab">Agregar nuevo Producto</a></li>
   <li><a href="#edit_categories" data-toggle="tab">Editar Categorías</a></li>
@@ -491,9 +491,9 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
       </div>
   </div>
 </div>
- <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 13:56:55
+ <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:44:01
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c2a7a59176_77946626')) {function content_52e3c2a7a59176_77946626($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3dbc1bed987_58194412')) {function content_52e3dbc1bed987_58194412($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -501,7 +501,7 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
             <p>Recibe nuestras promociones</p><p>Escribe tu E-mail aquí</p>
             <div class="input-append">
                 <input  id="appendedInputButton"  type="text" class="span7" placeholder="abc@ejemplo.com">
-                <button class="btn" type="button">Subscribe!</button>
+                <button class="btn" type="button">Subscribete!</button>
             </div>
 
         </div>
@@ -513,14 +513,14 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 13:56:55
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:44:01
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3c2a7a9b807_35762691')) {function content_52e3c2a7a9b807_35762691($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3dbc1c47715_07006609')) {function content_52e3dbc1c47715_07006609($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">
             <div id="footer-bottom">
-                © Copyright 2013 by <a href="#">Jardines Altamar</a>. Todos los derechos reservados.
+               <p align="center">Jardín Altamar  © Copyright 2014 . Todos los derechos reservados. </p>
 
                 <div id="scroll-top-top">
                     <a href="" title="Subir"></a>
