@@ -40,15 +40,12 @@ function smarty_function_recent_works($params, &$smarty)
 {   
     $smarty->assign('recent_works', User::recent_works());
     $smarty->assign("works_directoy",uploads.'works/');
-   
 }
 
 
 function smarty_function_about_us($params, &$smarty)
 {   
     $smarty->assign('about_us', User::about_us());
-   
-   
 }
 
 
@@ -64,7 +61,6 @@ function smarty_function_category_by_id($params, &$smarty)
 {   
     $category_id = $params['category_id'];
     $smarty->assign('category_name', User::category_name($category_id));
-  
 }
 
 $smarty->registerPlugin("function",'slider_files', 'smarty_function_slider_files');

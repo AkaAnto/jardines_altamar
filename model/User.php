@@ -7,6 +7,8 @@ include_once 'Util_File.php';
 define ("login", "select * from user where username= % and password = % and is_active=1");
 define ("categories", "select * from categoria");
 define ("category_name", "select * from categoria where c_id=%");
+define ("change_category", "update categoria set c_nombre='%' where c_id=%");
+define ("add_category", "insert into  categoria values(NULL,'%',1)");
 define ("product_links", "select * from link_productos");
 define ("about_us", "select * from nosotros");
 define ("products", "select * from producto");
@@ -164,6 +166,30 @@ class User extends Util_DataBase {
         $category = User::execute_select($query);
         return $category;
     }
+    public static function edit_category($nombre, $id){
+        $values = array();
+        $values[0] =$nombre;
+        $values[1] =$id;
+        $query = Util_String::concatenate(change_category, $values);
+        $category = User::execute_query($query);
+        if ($category != false){
+            return true;
+        }
+        return false;
+    }
+
+     public static function add_category($nombre){
+        $values = array();
+        $values[0] =$nombre;
+        $query = Util_String::concatenate(add_category, $values);
+        $category = User::execute_query($query);
+        if ($category != false){
+            return true;
+        }
+        return false;
+    }
+
+
 }
 
 ?>

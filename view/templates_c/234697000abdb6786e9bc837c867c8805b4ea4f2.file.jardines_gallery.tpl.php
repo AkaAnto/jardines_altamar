@@ -1,12 +1,12 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 11:49:43
-         compiled from "..\view\templates\admin\jardines_products.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1523752d58f1a2b8af3-85254614%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 03:58:45
+         compiled from "..\view\templates\admin\jardines_gallery.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1033152d8aa7566f8f6-38544520%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
-    'a0ada7e997d85460d41fc23a25037ff467ad116f' => 
+    '234697000abdb6786e9bc837c867c8805b4ea4f2' => 
     array (
-      0 => '..\\view\\templates\\admin\\jardines_products.tpl',
+      0 => '..\\view\\templates\\admin\\jardines_gallery.tpl',
       1 => 1387333929,
       2 => 'file',
     ),
@@ -22,16 +22,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       1 => 1389414481,
       2 => 'file',
     ),
-    '3127c497ff33ac0cb8eeb8072e601d93d149dd9c' => 
+    'f0ec42122ba6eb20b5472cb899083b201ce4b3b0' => 
     array (
-      0 => '..\\view\\templates\\admin\\products.tpl',
-      1 => 1390650122,
-      2 => 'file',
-    ),
-    '96a79ce987af9f8eb0c1e5947502cb7ff3a45036' => 
-    array (
-      0 => '..\\view\\templates\\admin\\content_products.tpl',
-      1 => 1390650051,
+      0 => '..\\view\\templates\\admin\\content_gallery.tpl',
+      1 => 1387333929,
       2 => 'file',
     ),
     '1999ef54d929ec494d4354e63dec316211d50653' => 
@@ -47,12 +41,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1523752d58f1a2b8af3-85254614',
+  'nocache_hash' => '1033152d8aa7566f8f6-38544520',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_52d58f1ade8210_85047824',
   'variables' => 
   array (
     'css' => 0,
@@ -61,8 +53,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'success_message' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_52d8aa75c43d51_45446184',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52d58f1ade8210_85047824')) {function content_52d58f1ade8210_85047824($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_52d8aa75c43d51_45446184')) {function content_52d8aa75c43d51_45446184($_smarty_tpl) {?><!DOCTYPE html>
 <!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
@@ -134,8 +128,8 @@ switcher.js"></script>
 
                 <?php /*  Call merged included template "top_menu_admin.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3a4d7a5af21_07873362($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu_admin.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
+content_52d8aa758f0382_04545546($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_admin.tpl" */?>
 
         
@@ -160,11 +154,11 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu_ad
         <?php }?>
     
 
-        <?php /*  Call merged included template "admin/content_products.tpl" */
+        <?php /*  Call merged included template "admin/content_gallery.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_products.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3a4d7c99329_73284265($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_products.tpl" */?>
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('admin/content_gallery.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
+content_52d8aa75b4db92_33707554($_smarty_tpl);
+$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/content_gallery.tpl" */?>
 
 
 
@@ -189,8 +183,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/conte
                 
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3a4d7dc2170_99125185($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
+content_52d8aa75bd6732_81675153($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -200,8 +194,8 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
 
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3a4d7dfcb02_81738506($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1033152d8aa7566f8f6-38544520');
+content_52d8aa75c14f49_44155549($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -296,9 +290,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 11:49:43
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 03:58:45
          compiled from "..\view\templates\top_menu_admin.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3a4d7a5af21_07873362')) {function content_52e3a4d7a5af21_07873362($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52d8aa758f0382_04545546')) {function content_52d8aa758f0382_04545546($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -337,96 +331,75 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 11:49:43
-         compiled from "..\view\templates\admin\content_products.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3a4d7c99329_73284265')) {function content_52e3a4d7c99329_73284265($_smarty_tpl) {?>
-<div class="row-fluid">
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 03:58:45
+         compiled from "..\view\templates\admin\content_gallery.tpl" */ ?>
+<?php if ($_valid && !is_callable('content_52d8aa75b4db92_33707554')) {function content_52d8aa75b4db92_33707554($_smarty_tpl) {?><div class="row-fluid">
+    <div id="page-title">
+        
+        <h2>Editar Galería</h2>
+               
+    </div>
+                <div class="three-tables">
 
-    <?php /*  Call merged included template "admin/products.tpl" */
-$_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("admin/products.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1523752d58f1a2b8af3-85254614');
-content_52e3a4d7cb8731_64099531($_smarty_tpl);
-$_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "admin/products.tpl" */?>
-</div>
+                    <div class="pricing-table span4">
+                        <div class="color-1">
+                            <h3>Jardinería
+                            <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Editar</button>
+                            
+                            </h3>
+                            
+                            <ul>
+                                <li><button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Agregar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                            </ul>
+                           
+                        </div>
+                    </div>
 
-<hr>
+                    <div class="pricing-table span4">
+                        <div class="color-1 ">
+                            <h3>Flores <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Editar</button></h3>
+                            
+                           
+                            <ul>
+                                <li><button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Agregar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+
+                    <div class="pricing-table span4">
+                        <div class="color-1 ">
+                            <h3>Exteriores <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Editar</button></h3>
+                            
+                           
+                            <ul>
+                                <li><button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Agregar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                                <li>Título/Nombre Foto <button type="button" class="btn btn-inverse" style="padding: 3px; font-size: 12px; line-height: 8px;">Eliminar</button></li>
+                            </ul>
+                           
+                        </div>
+                    </div>
 
 
+                </div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 11:49:43
-         compiled from "..\view\templates\admin\products.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3a4d7cb8731_64099531')) {function content_52e3a4d7cb8731_64099531($_smarty_tpl) {?><ul class="nav nav-tabs myTab" id="tabs_slider">
-  <li class="active" ><a href="#edit_products" data-toggle="tab">Editar Productos</a></li>
-  <li><a href="#add_products" data-toggle="tab">Agregar nuevo Producto</a></li>
-  <li><a href="#edit_categories" data-toggle="tab">Editar Categorías</a></li>
-  <li><a href="#add_category" data-toggle="tab">Agregar nueva Categoría</a></li>
-</ul>
- 
-<div class="tab-content">
-  <div class="tab-pane active" id="edit_products">
-    <form method="POST" action="../usuario/edit_category.php">
-      <br/>
-      <?php echo smarty_function_products_categories(array(),$_smarty_tpl);?>
-
-      <?php  $_smarty_tpl->tpl_vars['category'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['category']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['products_categories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['category']->key => $_smarty_tpl->tpl_vars['category']->value){
-$_smarty_tpl->tpl_vars['category']->_loop = true;
-?>  
-          <input type="text" class="span3 " name="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
-" value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
-"/> 
-      <?php } ?>
-      <br/>
-      <div align="center"> <input type="submit" class="btn btn-info" value="Editar"> </div>
-    </form>
-  </div>
-
-  <div class="tab-pane " id="add_products">
-      <div class="span12">
-        <div class="featuresbox">
-            <form action="../usuario/add_file_to_slider.php" method="POST" enctype="multipart/form-data"> 
-                  <input type="text" class="span6 " name="category_name" value="" placeholder="Nueva Categoría"/> 
-          <br>
-                  <button type="submit" class="btn  btn-info">Agregar Categoría</button>               
-              </form>
-        </div>
-      </div>
-  </div>
-  <div class="tab-pane" id="edit_categories">
-    <form method="POST" action="../usuario/edit_category.php">
-      <br/>
-      <?php echo smarty_function_products_categories(array(),$_smarty_tpl);?>
-
-      <?php  $_smarty_tpl->tpl_vars['category'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['category']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['products_categories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['category']->key => $_smarty_tpl->tpl_vars['category']->value){
-$_smarty_tpl->tpl_vars['category']->_loop = true;
-?>  
-          <input type="text" class="span3 " name="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_id'];?>
-" value="<?php echo $_smarty_tpl->tpl_vars['category']->value['c_nombre'];?>
-"/> 
-      <?php } ?>
-      <br/>
-      <div align="center"> <input type="submit" class="btn btn-info" value="Editar"> </div>
-    </form>
-  </div>
-
-  <div class="tab-pane " id="add_category">
-      <div class="span12">
-        <div class="featuresbox">
-            <form action="../usuario/add_category.php" method="POST" enctype="multipart/form-data"> 
-                  <input type="text" class="span6 " name="category_name" value="" placeholder="Nueva Categoría"/> 
-				  <br>
-                  <button type="submit" class="btn  btn-info">Agregar Categoría</button>               
-              </form>
-        </div>
-      </div>
-  </div>
-</div>
- <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 11:49:43
+            </div><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 03:58:45
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3a4d7dc2170_99125185')) {function content_52e3a4d7dc2170_99125185($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d8aa75bd6732_81675153')) {function content_52d8aa75bd6732_81675153($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -446,9 +419,9 @@ $_smarty_tpl->tpl_vars['category']->_loop = true;
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 11:49:43
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-17 03:58:45
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3a4d7dfcb02_81738506')) {function content_52e3a4d7dfcb02_81738506($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52d8aa75c14f49_44155549')) {function content_52d8aa75c14f49_44155549($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">

@@ -22,7 +22,7 @@ abstract class Util_DataBase {
      
     public static function execute_mysql_query($query){  
         $connection= Util_DataBase::mysql_connection();
-        $execute = mysql_query($query) or die (mysql_error());
+        $execute = mysql_query($query) ;
         mysql_close($connection);
         return $execute;
     }

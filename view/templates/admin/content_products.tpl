@@ -1,7 +1,7 @@
 
 <div class="row-fluid">
 
-    {include file="admin/categories.tpl"}
+    {include file="admin/products.tpl"}
 </div>
 
 <hr>
