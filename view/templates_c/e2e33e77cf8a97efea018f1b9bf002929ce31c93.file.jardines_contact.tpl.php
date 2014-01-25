@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:18
+<?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:51:31
          compiled from "..\view\templates\jardines_contact.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2389052e32c0f14afa4-64601293%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '56e861f035a4b9c2d346097902276e31c8b7a61b' => 
     array (
       0 => '..\\view\\templates\\content_contact.tpl',
-      1 => 1387416513,
+      1 => 1390665089,
       2 => 'file',
     ),
     '1999ef54d929ec494d4354e63dec316211d50653' => 
@@ -127,7 +127,7 @@ switcher.js"></script>
                 <?php /*  Call merged included template "top_menu.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("top_menu.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2389052e32c0f14afa4-64601293');
-content_52e3d632a1b321_46622176($_smarty_tpl);
+content_52e3dd839f0bb2_62164388($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tpl" */?>
 
         
@@ -154,7 +154,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "top_menu.tp
          <?php /*  Call merged included template "content_contact.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('content_contact.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2389052e32c0f14afa4-64601293');
-content_52e3d632c97f31_87152855($_smarty_tpl);
+content_52e3dd83c5ddc8_58057703($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "content_contact.tpl" */?>
 
 
@@ -165,7 +165,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "content_con
     <?php /*  Call merged included template "footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2389052e32c0f14afa4-64601293');
-content_52e3d632cf5b47_01390110($_smarty_tpl);
+content_52e3dd83cc36d2_31727414($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl" */?>
     
 
@@ -176,7 +176,7 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "footer.tpl"
     <?php /*  Call merged included template "last_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
  $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("last_footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '2389052e32c0f14afa4-64601293');
-content_52e3d632d34352_96898398($_smarty_tpl);
+content_52e3dd83d05d66_73238445($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer.tpl" */?>
                 
 
@@ -271,9 +271,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "last_footer
 
     </body>
 
-</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:18
+</html><?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:51:31
          compiled from "..\view\templates\top_menu.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3d632a1b321_46622176')) {function content_52e3d632a1b321_46622176($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
+<?php if ($_valid && !is_callable('content_52e3dd839f0bb2_62164388')) {function content_52e3dd839f0bb2_62164388($_smarty_tpl) {?><div class="span1" style="margin-top: -14px; width: 90px;">
      
     <a href="controller.php" ><img src="<?php echo $_smarty_tpl->tpl_vars['img']->value;?>
 portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>   
@@ -312,9 +312,9 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
  <div class="nav-shadow span7"></div>
 <div class="clear"></div>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:18
+<?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:51:31
          compiled from "..\view\templates\content_contact.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3d632c97f31_87152855')) {function content_52e3d632c97f31_87152855($_smarty_tpl) {?><div class="row-fluid">
+<?php if ($_valid && !is_callable('content_52e3dd83c5ddc8_58057703')) {function content_52e3dd83c5ddc8_58057703($_smarty_tpl) {?><div class="row-fluid">
 
 
                 <!-- Page Title -->
@@ -333,7 +333,7 @@ portada/logo_jardines.png" width="100px" height="100px" class="logo"/></a>
 
                 <!-- Standard Structure -->
                 <div class="span8">
-                    <p>Donec odio ut arcu fringilla dictum eu eu nisl. Donec rutrum erat non arcu gravida porttitor. Nunc et magna nisi.Aliquam at erat in purus aliquet mollis. Fusce elementum velit vel dolor iaculis egestas. Maecenas ut nulla quis eros scelerisque posuere vel vitae nibh. Proin id condimentum sem. Morbi vitae dui in magna vestibulum suscipit vitae vel nunc. Integer ut risus nulla. malesuada tortor, nec scelerisque lorem mattis.</p>
+                    <p>Si necesita alguna información o se quiere comunicar con nosotros, por favor ingrese la información que se solicita en el siguiente formulario y con gusto atenderemos su petición con la mayor prontitud.</p>
 
                     <div id="contact-form" >
                         <form>
@@ -386,25 +386,25 @@ jquery.gmap.min.js"></script>
                     </script>
 
                 </div>
-                <!-- Standard Structure End -->
+                <!-- Standard Structure End 
                 <div class="span4">
                     <div class="headline "><h4>Oportunidad de Trabajo</h4></div>
 
-                    <!-- Large Notice -->
+                    <!-- Large Notice 
                     <div class="well">
                         <h2>Trabaja con nosotros</h2>
 			<p>Envianos tu curriculum</p>
 			<button type="button" class="btn btn-inverse">Enviar</button>
                     </div>
 
-                </div>
+                </div>-->
 
             </div>
 
 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:18
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:51:31
          compiled from "..\view\templates\footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3d632cf5b47_01390110')) {function content_52e3d632cf5b47_01390110($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3dd83cc36d2_31727414')) {function content_52e3dd83cc36d2_31727414($_smarty_tpl) {?>
 <div id="footer" class="container-fluid paddingbottom" >
     <div class="row-fluid">
         <div class="span4">
@@ -424,9 +424,9 @@ jquery.gmap.min.js"></script>
      </div>
 </div>
                 
-        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:20:18
+        <?php }} ?><?php /* Smarty version Smarty-3.1.14, created on 2014-01-25 15:51:31
          compiled from "..\view\templates\last_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_52e3d632d34352_96898398')) {function content_52e3d632d34352_96898398($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52e3dd83d05d66_73238445')) {function content_52e3dd83d05d66_73238445($_smarty_tpl) {?>
 <div id="footer" class="container-fluid" style="background: #111;">
     <div class="row-fluid">
         <div class="span12">

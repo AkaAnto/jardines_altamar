@@ -28,7 +28,7 @@
                 <h4>{$category.c_nombre}</h4>
              {/foreach}
             <p>{$product_link.Descripcion}</p>
-            <button type="button" class="btn"><a href="jardines_products.php">Leer más</a></button>
+            <button type="button" class="btn"><a href="productos/index.php?category={$category.c_id}">Leer más</a></button>
         </div>
     </div>
    {/foreach}

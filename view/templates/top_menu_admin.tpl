@@ -15,7 +15,7 @@
 
             <li><a href="jardines_gallery_admin.php" {if isset($gallery) && $gallery == True}class="active"{/if}>Galeria</a></li>
 
-            <li><a href="jardines_contact_admin.php" {if isset($contact) && $contact == True}class="active"{/if}>Contacto</a></li>
+            <!--<li><a href="jardines_contact_admin.php" {if isset($contact) && $contact == True}class="active"{/if}>Contacto</a></li> -->
 
             <li><a href="../salir/" >Salir</a></li>
         </ul>

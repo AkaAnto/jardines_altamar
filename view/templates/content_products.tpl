@@ -18,10 +18,10 @@
                     <div class="accordion-group">
                         <div class="accordion-heading">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse_{$category.c_id}">
-                                {$category.c_nombre}
+                                {$category.c_nombre} 
                             </a>
                         </div>
-                        <div id="collapse_{$category.c_id}" class="accordion-body collapse" style="height: 0px; ">
+                        <div id="collapse_{$category.c_id}" class="accordion-body  {if $selected_category==$category.c_id} in collapse style="height: auto; "{else} collapse style="height: 0px; "{/if}" >
                             <div class="accordion-inner" style="max-height: 320px; overflow-y:scroll;">
                                 {category_products_list category_name=$category.c_id }
                                 {foreach from=$category_products item=product  name=products}     

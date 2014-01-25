@@ -17,7 +17,7 @@
 
                 <!-- Standard Structure -->
                 <div class="span8">
-                    <p>Donec odio ut arcu fringilla dictum eu eu nisl. Donec rutrum erat non arcu gravida porttitor. Nunc et magna nisi.Aliquam at erat in purus aliquet mollis. Fusce elementum velit vel dolor iaculis egestas. Maecenas ut nulla quis eros scelerisque posuere vel vitae nibh. Proin id condimentum sem. Morbi vitae dui in magna vestibulum suscipit vitae vel nunc. Integer ut risus nulla. malesuada tortor, nec scelerisque lorem mattis.</p>
+                    <p>Si necesita alguna información o se quiere comunicar con nosotros, por favor ingrese la información que se solicita en el siguiente formulario y con gusto atenderemos su petición con la mayor prontitud.</p>
 
                     <div id="contact-form" >
                         <form>
@@ -69,18 +69,18 @@
                     </script>
 
                 </div>
-                <!-- Standard Structure End -->
+                <!-- Standard Structure End 
                 <div class="span4">
                     <div class="headline "><h4>Oportunidad de Trabajo</h4></div>
 
-                    <!-- Large Notice -->
+                    <!-- Large Notice 
                     <div class="well">
                         <h2>Trabaja con nosotros</h2>
 			<p>Envianos tu curriculum</p>
 			<button type="button" class="btn btn-inverse">Enviar</button>
                     </div>
 
-                </div>
+                </div>-->
 
             </div>
 
