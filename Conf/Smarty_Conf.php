@@ -48,6 +48,18 @@ function smarty_function_recent_works($params, &$smarty)
 }
 
 
+
+function smarty_function_works($params, &$smarty)
+{   
+     $category = $params['category_id'];
+    $smarty->assign('works', User::works($category));
+    $smarty->assign("works_directoy",uploads.'works/');
+}
+
+
+
+
+
 function smarty_function_about_us($params, &$smarty)
 {   
     $smarty->assign('about_us', User::about_us());
