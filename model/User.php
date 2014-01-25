@@ -18,6 +18,7 @@ define ("works", "select * from trabajo where categoria_fk=% ORDER BY id DESC");
 define ("all_works", "select * from trabajo");
 define ("edit_product_links","Update link_productos set fk_categoria=%, Descripcion='%', foto='%' where id=% ");
 define ("edit_products","Update producto set fk_categoria=%, Descripcion='%', foto='%', nombre='%' where id=% ");
+define ("edit_works","Update trabajo  set categoria_fk=%, descripcion='%', foto='%', nombre='%' where id=% ");
 define ("add_product","Insert into  producto (id, nombre, fk_categoria, Descripcion, foto) values (NULL, '%', %, '%','%' ) ");
 define ("edit_about_us","Update nosotros set n_empresa='%', n_mision='%', n_vision='%'");
 define ("change_user_password","Update user set password='%' where username='%'");
@@ -138,6 +139,21 @@ class User extends Util_DataBase {
         $query = Util_String::concatenate(edit_products, $values);
         $product = User::execute_query($query);
         if ($product != false){
+            return true;
+        }
+        return false;
+    }
+
+    public static function edit_works($id, $categoria,$descripcion,$foto, $nombre){
+        $values = array();
+        $values[0] =$categoria;
+        $values[1] =$descripcion;
+        $values[2] =$foto;
+        $values[3] =$nombre;
+        $values[4] =$id;
+        $query = Util_String::concatenate(edit_works, $values);
+        $work = User::execute_query($query);
+        if ($work != false){
             return true;
         }
         return false;
