@@ -45,6 +45,12 @@
 
                     <!-- Google Maps -->
                     <div id="googlemaps" class="google-map google-map-full" style="height:250px"></div>
+                    <div class="well">
+                        
+                        <p>4ta Transversal de los Palos Grandes entre la Av Alfredo Jhan y Av Andrés Bello, Los Palos Grandes, Chacao.</p>
+                        <p> <strong>Teléfonos:  <br> 0212 284 24 32  /  0212 284 11 43   <br> 0212 286 90 15  /  0212 286 97 18 </strong></p>
+                       
+                    </div>
 
                     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
                     <script src="{$js}jquery.gmap.min.js"></script>

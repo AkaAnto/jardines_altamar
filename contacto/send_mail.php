@@ -30,13 +30,13 @@ if ( isset($_POST['mail']) && isset($_POST['nombre']) && isset($_POST['mensaje']
         $values = array();
         $values[0] = $fullname; 
         $message = Util_String::concatenate(new_contact, $values);
-        Util_Email::send_html_mail($email, "[Jardín Altamar] Nuevo Contacto", $message,"ricardovieira1812@hotmail.com", img."logo_jardines.png",  $smarty);
+        Util_Email::send_html_mail("antojrd@gmail.com", "[Jardín Altamar]  Contacto", $message,"antojrd@gmail.com", img."logo_jardines.png",  $smarty);
         $values = array();
         $values[0] = $fullname;
         $values[1] = $email;
         $values[2] =  $mensaje;
         $message = Util_String::concatenate(new_contact_req, $values);
-        Util_Email::send_html_mail("ricardovieira1812@hotmail.com", "[Jardín Altamar] Nuevo Contacto", $message, "ricardovieira1812@hotmail.com", img."logo_jardines.png",  $smarty);
+        Util_Email::send_html_mail("altamarjardin@gmail.com", "[Jardín Altamar] Nuevo Contacto", $message, "altamarjardin@gmail.com", img."logo_jardines.png",  $smarty);
         $_SESSION['info_message']= "Correo de contacto enviado exitosamente.";
         $smarty->assign("info_message", $_SESSION['info_message']);
     }

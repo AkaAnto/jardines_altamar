@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `jardin_altamar`
 --
-CREATE DATABASE IF NOT EXISTS `jardin_altamar` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `jardin_altamar`;
 
 -- --------------------------------------------------------
 

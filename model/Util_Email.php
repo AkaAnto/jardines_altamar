@@ -18,7 +18,7 @@ abstract class Util_Email {
         $smarty->assign("title", $subject);
         $smarty->assign("inline",  $inline);
         $body = $smarty->fetch('../view/templates/mail.tpl');
-        mail($to, $subject, $body, $headers);
+        echo mail($to, $subject, $body, $headers);
         return true;
     } 
     
